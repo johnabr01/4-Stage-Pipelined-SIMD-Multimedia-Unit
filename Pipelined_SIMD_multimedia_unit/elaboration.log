@@ -1,0 +1,39 @@
+Active-HDL 15.0.261.9132 2025-09-13 15:06:48
+
+Elaboration top modules:
+Architecture                  behavior(tb_Pipelined_SIMD_multimedia_unit)
+
+
+-------------------------------------------------------------------------------------------------------------------------------------------
+Entity                            | Architecture | Library                        | Info | Compiler Version          | Compilation Options
+-------------------------------------------------------------------------------------------------------------------------------------------
+tb_Pipelined_SIMD_multimedia_unit | behavior     | pipelined_simd_multimedia_unit |      | 15.0.261.9132 (Windows64) | -O3 -2008
+Pipelined_SIMD_multimedia_unit    | structural   | pipelined_simd_multimedia_unit |      | 15.0.261.9132 (Windows64) | -O3 -2008
+PC_with_instr_buff                | behavioral   | pipelined_simd_multimedia_unit |      | 15.0.261.9132 (Windows64) | -O3 -2008
+IF_ID_reg                         | behavioral   | pipelined_simd_multimedia_unit |      | 15.0.261.9132 (Windows64) | -O3 -2008
+Register_File                     | behavioral   | pipelined_simd_multimedia_unit |      | 15.0.261.9132 (Windows64) | -O3 -2008
+ID_EX_reg                         | behavioral   | pipelined_simd_multimedia_unit |      | 15.0.261.9132 (Windows64) | -O3 -2008
+Forwarding_unit                   | behavioral   | pipelined_simd_multimedia_unit |      | 15.0.261.9132 (Windows64) | -O3 -2008
+multimedia_ALU                    | behavioral   | pipelined_simd_multimedia_unit |      | 15.0.261.9132 (Windows64) | -O3 -2008
+EX_WB_reg                         | behavioral   | pipelined_simd_multimedia_unit |      | 15.0.261.9132 (Windows64) | -O3 -2008
+-------------------------------------------------------------------------------------------------------------------------------------------
+
+-------------------------------------------------------------------------------------------------------------------------------------------
+VHDL Package                                     | Library                        | Info | Compiler Version          | Compilation Options
+-------------------------------------------------------------------------------------------------------------------------------------------
+standard                                         | std                            |      |                           | <unavailable>
+TEXTIO                                           | std                            |      | 15.0.261.9132 (Windows64) |  -2019
+std_logic_1164                                   | ieee                           |      | 15.0.261.9132 (Windows64) |  -2008
+NUMERIC_STD                                      | ieee                           |      | 15.0.261.9132 (Windows64) |  -2008
+instr_array                                      | pipelined_simd_multimedia_unit |      | 15.0.261.9132 (Windows64) | -O3 -2008
+ENV                                              | std                            |      | 15.0.261.9132 (Windows64) |  -2019
+std_logic_textio                                 | ieee                           |      | 15.0.261.9132 (Windows64) | <unavailable>
+-------------------------------------------------------------------------------------------------------------------------------------------
+
+-------------------------------------------------------------------------------------------------------------------------------------------
+Library                                          | Comment
+-------------------------------------------------------------------------------------------------------------------------------------------
+ieee                                             | Standard IEEE packages library
+pipelined_simd_multimedia_unit                   | None
+std                                              | Standard VHDL library
+-------------------------------------------------------------------------------------------------------------------------------------------

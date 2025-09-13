@@ -17,7 +17,7 @@ The accompanying testbench scans input instruction files, executes them, and ver
 ## Key Highlights
 - Engineered a **4-stage pipelined processor** in VHDL with IF, ID, EXE, and WB stages, capable of executing up to **4 instructions per cycle with 0 stalls** using a custom-designed forwarding unit.  
 - Implemented a **32×128-bit register file** with **3 read / 1 write operations per cycle**, integrated with a **Multimedia ALU** supporting **3-input, 128-bit instruction execution** using behavioral modeling.  
-- Developed a **Python-based assembler** and custom testbench, achieving **100% functional and timing verification** of a 64-instruction buffer and full pipeline operation with automated results logging.  
+- Developed a **Python-based assembler** and custom testbench, achieving **100% functional verification** of a 64-instruction buffer and full pipeline operation with automated results logging.  
 
 ---
 

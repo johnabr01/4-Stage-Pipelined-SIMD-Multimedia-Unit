@@ -1,0 +1,2306 @@
+Pipeline Internal Signals Debug Log
+=======================================================================================
+Cycle: 0
+---------------Output of Instr Buff----------------
+Fetched Instruction: XXXXXXX
+---------------Output of IF/ID Pipeline Reg----------------
+Decoded Instruction: XXXXXXX
+---------------Input of Reg File----------------
+RegFile Instruction: XXXXXXX
+---------------Output of Reg File----------------
+RS1 Data: 00000000000000000000000000000000
+RS2 Data: 00000000000000000000000000000000
+RS3 Data: 00000000000000000000000000000000
+---------------Output of ID/EX Pipeline Reg----------------
+ID/EX Instruction: XXXXXXX
+ID/EX RS1 Data: 00000000000000000000000000000000
+ID/EX RS2 Data: 00000000000000000000000000000000
+ID/EX RS3 Data: 00000000000000000000000000000000
+---------------Output of Forwarding Unit----------------
+Forwarded Instruction: XXXXXXX
+Forwarded RS1 Data: XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+Forwarded RS2 Data: XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+Forwarded RS3 Data: XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+Forwarded RD Data for load: XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+---------------Output of ALU----------------
+ALU RegWrite: U
+ALU RD Address: XX
+ALU Result: XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+---------------Output of EX/WB Pipeline Reg----------------
+WB RegWrite: U
+WB RD Address: XX
+WB RD Data: XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+Pipeline Output: XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+---------------------------------------
+
+
+
+
+Cycle: 1
+---------------Output of Instr Buff----------------
+Fetched Instruction: XXXXXXX
+---------------Output of IF/ID Pipeline Reg----------------
+Decoded Instruction: XXXXXXX
+---------------Input of Reg File----------------
+RegFile Instruction: XXXXXXX
+---------------Output of Reg File----------------
+RS1 Data: 00000000000000000000000000000000
+RS2 Data: 00000000000000000000000000000000
+RS3 Data: 00000000000000000000000000000000
+---------------Output of ID/EX Pipeline Reg----------------
+ID/EX Instruction: XXXXXXX
+ID/EX RS1 Data: 00000000000000000000000000000000
+ID/EX RS2 Data: 00000000000000000000000000000000
+ID/EX RS3 Data: 00000000000000000000000000000000
+---------------Output of Forwarding Unit----------------
+Forwarded Instruction: XXXXXXX
+Forwarded RS1 Data: XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+Forwarded RS2 Data: XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+Forwarded RS3 Data: XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+Forwarded RD Data for load: XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+---------------Output of ALU----------------
+ALU RegWrite: U
+ALU RD Address: XX
+ALU Result: XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+---------------Output of EX/WB Pipeline Reg----------------
+WB RegWrite: U
+WB RD Address: XX
+WB RD Data: XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+Pipeline Output: XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+---------------------------------------
+
+
+
+
+Cycle: 2
+---------------Output of Instr Buff----------------
+Fetched Instruction: 00FFFE0
+---------------Output of IF/ID Pipeline Reg----------------
+Decoded Instruction: XXXXXXX
+---------------Input of Reg File----------------
+RegFile Instruction: XXXXXXX
+---------------Output of Reg File----------------
+RS1 Data: 00000000000000000000000000000000
+RS2 Data: 00000000000000000000000000000000
+RS3 Data: 00000000000000000000000000000000
+---------------Output of ID/EX Pipeline Reg----------------
+ID/EX Instruction: XXXXXXX
+ID/EX RS1 Data: 00000000000000000000000000000000
+ID/EX RS2 Data: 00000000000000000000000000000000
+ID/EX RS3 Data: 00000000000000000000000000000000
+---------------Output of Forwarding Unit----------------
+Forwarded Instruction: XXXXXXX
+Forwarded RS1 Data: XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+Forwarded RS2 Data: XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+Forwarded RS3 Data: XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+Forwarded RD Data for load: XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+---------------Output of ALU----------------
+ALU RegWrite: U
+ALU RD Address: XX
+ALU Result: XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+---------------Output of EX/WB Pipeline Reg----------------
+WB RegWrite: U
+WB RD Address: XX
+WB RD Data: XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+Pipeline Output: XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+---------------------------------------
+
+
+
+
+Cycle: 3
+---------------Output of Instr Buff----------------
+Fetched Instruction: 00FFFE1
+---------------Output of IF/ID Pipeline Reg----------------
+Decoded Instruction: 00FFFE0
+---------------Input of Reg File----------------
+RegFile Instruction: 00FFFE0
+---------------Output of Reg File----------------
+RS1 Data: 00000000000000000000000000000000
+RS2 Data: 00000000000000000000000000000000
+RS3 Data: 00000000000000000000000000000000
+---------------Output of ID/EX Pipeline Reg----------------
+ID/EX Instruction: XXXXXXX
+ID/EX RS1 Data: 00000000000000000000000000000000
+ID/EX RS2 Data: 00000000000000000000000000000000
+ID/EX RS3 Data: 00000000000000000000000000000000
+---------------Output of Forwarding Unit----------------
+Forwarded Instruction: XXXXXXX
+Forwarded RS1 Data: XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+Forwarded RS2 Data: XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+Forwarded RS3 Data: XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+Forwarded RD Data for load: XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+---------------Output of ALU----------------
+ALU RegWrite: U
+ALU RD Address: XX
+ALU Result: XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+---------------Output of EX/WB Pipeline Reg----------------
+WB RegWrite: U
+WB RD Address: XX
+WB RD Data: XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+Pipeline Output: XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+---------------------------------------
+
+
+
+
+Cycle: 4
+---------------Output of Instr Buff----------------
+Fetched Instruction: 01FFFE2
+---------------Output of IF/ID Pipeline Reg----------------
+Decoded Instruction: 00FFFE1
+---------------Input of Reg File----------------
+RegFile Instruction: 00FFFE1
+---------------Output of Reg File----------------
+RS1 Data: 00000000000000000000000000000000
+RS2 Data: 00000000000000000000000000000000
+RS3 Data: 00000000000000000000000000000000
+---------------Output of ID/EX Pipeline Reg----------------
+ID/EX Instruction: 00FFFE0
+ID/EX RS1 Data: 00000000000000000000000000000000
+ID/EX RS2 Data: 00000000000000000000000000000000
+ID/EX RS3 Data: 00000000000000000000000000000000
+---------------Output of Forwarding Unit----------------
+Forwarded Instruction: 00FFFE0
+Forwarded RS1 Data: 00000000000000000000000000000000
+Forwarded RS2 Data: 00000000000000000000000000000000
+Forwarded RS3 Data: 00000000000000000000000000000000
+Forwarded RD Data for load: XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+---------------Output of ALU----------------
+ALU RegWrite: 1
+ALU RD Address: 00
+ALU Result: 00000000000000000000000000007FFF
+---------------Output of EX/WB Pipeline Reg----------------
+WB RegWrite: U
+WB RD Address: XX
+WB RD Data: XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+Pipeline Output: XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+---------------------------------------
+
+
+
+
+Cycle: 5
+---------------Output of Instr Buff----------------
+Fetched Instruction: 1800000
+---------------Output of IF/ID Pipeline Reg----------------
+Decoded Instruction: 01FFFE2
+---------------Input of Reg File----------------
+RegFile Instruction: 01FFFE2
+---------------Output of Reg File----------------
+RS1 Data: 00000000000000000000000000000000
+RS2 Data: 00000000000000000000000000000000
+RS3 Data: 00000000000000000000000000000000
+---------------Output of ID/EX Pipeline Reg----------------
+ID/EX Instruction: 00FFFE1
+ID/EX RS1 Data: 00000000000000000000000000000000
+ID/EX RS2 Data: 00000000000000000000000000000000
+ID/EX RS3 Data: 00000000000000000000000000000000
+---------------Output of Forwarding Unit----------------
+Forwarded Instruction: 00FFFE1
+Forwarded RS1 Data: 00000000000000000000000000000000
+Forwarded RS2 Data: 00000000000000000000000000000000
+Forwarded RS3 Data: 00000000000000000000000000000000
+Forwarded RD Data for load: XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+---------------Output of ALU----------------
+ALU RegWrite: 1
+ALU RD Address: 01
+ALU Result: 00000000000000000000000000007FFF
+---------------Output of EX/WB Pipeline Reg----------------
+WB RegWrite: 1
+WB RD Address: 00
+WB RD Data: 00000000000000000000000000007FFF
+Pipeline Output: 00000000000000000000000000007FFF
+---------------------------------------
+
+
+
+
+Cycle: 6
+---------------Output of Instr Buff----------------
+Fetched Instruction: 02E0002
+---------------Output of IF/ID Pipeline Reg----------------
+Decoded Instruction: 1800000
+---------------Input of Reg File----------------
+RegFile Instruction: 1800000
+---------------Output of Reg File----------------
+RS1 Data: 00000000000000000000000000007FFF
+RS2 Data: 00000000000000000000000000007FFF
+RS3 Data: 00000000000000000000000000007FFF
+---------------Output of ID/EX Pipeline Reg----------------
+ID/EX Instruction: 01FFFE2
+ID/EX RS1 Data: 00000000000000000000000000000000
+ID/EX RS2 Data: 00000000000000000000000000000000
+ID/EX RS3 Data: 00000000000000000000000000000000
+---------------Output of Forwarding Unit----------------
+Forwarded Instruction: 01FFFE2
+Forwarded RS1 Data: 00000000000000000000000000000000
+Forwarded RS2 Data: 00000000000000000000000000000000
+Forwarded RS3 Data: 00000000000000000000000000000000
+Forwarded RD Data for load: XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+---------------Output of ALU----------------
+ALU RegWrite: 1
+ALU RD Address: 02
+ALU Result: 0000000000000000000000000000FFFF
+---------------Output of EX/WB Pipeline Reg----------------
+WB RegWrite: 1
+WB RD Address: 01
+WB RD Data: 00000000000000000000000000007FFF
+Pipeline Output: 00000000000000000000000000007FFF
+---------------------------------------
+
+
+
+
+Cycle: 7
+---------------Output of Instr Buff----------------
+Fetched Instruction: 0800040
+---------------Output of IF/ID Pipeline Reg----------------
+Decoded Instruction: 02E0002
+---------------Input of Reg File----------------
+RegFile Instruction: 02E0002
+---------------Output of Reg File----------------
+RS1 Data: 00000000000000000000000000007FFF
+RS2 Data: 00000000000000000000000000007FFF
+RS3 Data: 00000000000000000000000000000000
+---------------Output of ID/EX Pipeline Reg----------------
+ID/EX Instruction: 1800000
+ID/EX RS1 Data: 00000000000000000000000000007FFF
+ID/EX RS2 Data: 00000000000000000000000000007FFF
+ID/EX RS3 Data: 00000000000000000000000000007FFF
+---------------Output of Forwarding Unit----------------
+Forwarded Instruction: 1800000
+Forwarded RS1 Data: 00000000000000000000000000007FFF
+Forwarded RS2 Data: 00000000000000000000000000007FFF
+Forwarded RS3 Data: 00000000000000000000000000007FFF
+Forwarded RD Data for load: XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+---------------Output of ALU----------------
+ALU RegWrite: 0
+ALU RD Address: 00
+ALU Result: 0000000000000000000000000000FFFF
+---------------Output of EX/WB Pipeline Reg----------------
+WB RegWrite: 1
+WB RD Address: 02
+WB RD Data: 0000000000000000000000000000FFFF
+Pipeline Output: 0000000000000000000000000000FFFF
+---------------------------------------
+
+
+
+
+Cycle: 8
+---------------Output of Instr Buff----------------
+Fetched Instruction: 0800101
+---------------Output of IF/ID Pipeline Reg----------------
+Decoded Instruction: 0800040
+---------------Input of Reg File----------------
+RegFile Instruction: 0800040
+---------------Output of Reg File----------------
+RS1 Data: 0000000000000000000000000000FFFF
+RS2 Data: 00000000000000000000000000007FFF
+RS3 Data: 00000000000000000000000000007FFF
+---------------Output of ID/EX Pipeline Reg----------------
+ID/EX Instruction: 02E0002
+ID/EX RS1 Data: 00000000000000000000000000007FFF
+ID/EX RS2 Data: 00000000000000000000000000007FFF
+ID/EX RS3 Data: 00000000000000000000000000000000
+---------------Output of Forwarding Unit----------------
+Forwarded Instruction: 02E0002
+Forwarded RS1 Data: 00000000000000000000000000007FFF
+Forwarded RS2 Data: 00000000000000000000000000007FFF
+Forwarded RS3 Data: 00000000000000000000000000000000
+Forwarded RD Data for load: XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+---------------Output of ALU----------------
+ALU RegWrite: 1
+ALU RD Address: 02
+ALU Result: 00000000000000000000000070000000
+---------------Output of EX/WB Pipeline Reg----------------
+WB RegWrite: 0
+WB RD Address: 00
+WB RD Data: 0000000000000000000000000000FFFF
+Pipeline Output: 0000000000000000000000000000FFFF
+---------------------------------------
+
+
+
+
+Cycle: 9
+---------------Output of Instr Buff----------------
+Fetched Instruction: 0822002
+---------------Output of IF/ID Pipeline Reg----------------
+Decoded Instruction: 0800101
+---------------Input of Reg File----------------
+RegFile Instruction: 0800101
+---------------Output of Reg File----------------
+RS1 Data: 00000000000000000000000000000000
+RS2 Data: 00000000000000000000000000007FFF
+RS3 Data: 00000000000000000000000000007FFF
+---------------Output of ID/EX Pipeline Reg----------------
+ID/EX Instruction: 0800040
+ID/EX RS1 Data: 0000000000000000000000000000FFFF
+ID/EX RS2 Data: 00000000000000000000000000007FFF
+ID/EX RS3 Data: 00000000000000000000000000007FFF
+---------------Output of Forwarding Unit----------------
+Forwarded Instruction: 0800040
+Forwarded RS1 Data: 00000000000000000000000070000000
+Forwarded RS2 Data: 00000000000000000000000000007FFF
+Forwarded RS3 Data: 00000000000000000000000000007FFF
+Forwarded RD Data for load: XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+---------------Output of ALU----------------
+ALU RegWrite: 1
+ALU RD Address: 00
+ALU Result: 00000000000000020000000000007FFF
+---------------Output of EX/WB Pipeline Reg----------------
+WB RegWrite: 1
+WB RD Address: 02
+WB RD Data: 00000000000000000000000070000000
+Pipeline Output: 00000000000000000000000070000000
+---------------------------------------
+
+
+
+
+Cycle: 10
+---------------Output of Instr Buff----------------
+Fetched Instruction: 0B579A2
+---------------Output of IF/ID Pipeline Reg----------------
+Decoded Instruction: 0822002
+---------------Input of Reg File----------------
+RegFile Instruction: 0822002
+---------------Output of Reg File----------------
+RS1 Data: 00000000000000000000000000007FFF
+RS2 Data: 00000000000000000000000000000000
+RS3 Data: 00000000000000000000000000000000
+---------------Output of ID/EX Pipeline Reg----------------
+ID/EX Instruction: 0800101
+ID/EX RS1 Data: 00000000000000000000000000000000
+ID/EX RS2 Data: 00000000000000000000000000007FFF
+ID/EX RS3 Data: 00000000000000000000000000007FFF
+---------------Output of Forwarding Unit----------------
+Forwarded Instruction: 0800101
+Forwarded RS1 Data: 00000000000000000000000000000000
+Forwarded RS2 Data: 00000000000000020000000000007FFF
+Forwarded RS3 Data: 00000000000000020000000000007FFF
+Forwarded RD Data for load: XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+---------------Output of ALU----------------
+ALU RegWrite: 1
+ALU RD Address: 01
+ALU Result: 00000000000000080000000000007FFF
+---------------Output of EX/WB Pipeline Reg----------------
+WB RegWrite: 1
+WB RD Address: 00
+WB RD Data: 00000000000000020000000000007FFF
+Pipeline Output: 00000000000000020000000000007FFF
+---------------------------------------
+
+
+
+
+Cycle: 11
+---------------Output of Instr Buff----------------
+Fetched Instruction: 1000443
+---------------Output of IF/ID Pipeline Reg----------------
+Decoded Instruction: 0B579A2
+---------------Input of Reg File----------------
+RegFile Instruction: 0B579A2
+---------------Output of Reg File----------------
+RS1 Data: 00000000000000000000000000000000
+RS2 Data: 00000000000000000000000000000000
+RS3 Data: 00000000000000000000000000000000
+---------------Output of ID/EX Pipeline Reg----------------
+ID/EX Instruction: 0822002
+ID/EX RS1 Data: 00000000000000000000000000007FFF
+ID/EX RS2 Data: 00000000000000000000000000000000
+ID/EX RS3 Data: 00000000000000000000000000000000
+---------------Output of Forwarding Unit----------------
+Forwarded Instruction: 0822002
+Forwarded RS1 Data: 00000000000000000000000000007FFF
+Forwarded RS2 Data: 00000000000000000000000000000000
+Forwarded RS3 Data: 00000000000000000000000000000000
+Forwarded RD Data for load: XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+---------------Output of ALU----------------
+ALU RegWrite: 1
+ALU RD Address: 02
+ALU Result: 0000000000001100000000007000FFFF
+---------------Output of EX/WB Pipeline Reg----------------
+WB RegWrite: 1
+WB RD Address: 01
+WB RD Data: 00000000000000080000000000007FFF
+Pipeline Output: 00000000000000080000000000007FFF
+---------------------------------------
+
+
+
+
+Cycle: 12
+---------------Output of Instr Buff----------------
+Fetched Instruction: 181D064
+---------------Output of IF/ID Pipeline Reg----------------
+Decoded Instruction: 1000443
+---------------Input of Reg File----------------
+RegFile Instruction: 1000443
+---------------Output of Reg File----------------
+RS1 Data: 0000000000000000000000007000FFFF
+RS2 Data: 00000000000000080000000000007FFF
+RS3 Data: 00000000000000020000000000007FFF
+---------------Output of ID/EX Pipeline Reg----------------
+ID/EX Instruction: 0B579A2
+ID/EX RS1 Data: 00000000000000000000000000000000
+ID/EX RS2 Data: 00000000000000000000000000000000
+ID/EX RS3 Data: 00000000000000000000000000000000
+---------------Output of Forwarding Unit----------------
+Forwarded Instruction: 0B579A2
+Forwarded RS1 Data: 00000000000000000000000000000000
+Forwarded RS2 Data: 00000000000000000000000000000000
+Forwarded RS3 Data: 00000000000000000000000000000000
+Forwarded RD Data for load: 0000000000001100000000007000FFFF
+---------------Output of ALU----------------
+ALU RegWrite: 1
+ALU RD Address: 02
+ALU Result: 00000000ABCD1100000000007000FFFF
+---------------Output of EX/WB Pipeline Reg----------------
+WB RegWrite: 1
+WB RD Address: 02
+WB RD Data: 0000000000001100000000007000FFFF
+Pipeline Output: 0000000000001100000000007000FFFF
+---------------------------------------
+
+
+
+
+Cycle: 13
+---------------Output of Instr Buff----------------
+Fetched Instruction: 1863C65
+---------------Output of IF/ID Pipeline Reg----------------
+Decoded Instruction: 181D064
+---------------Input of Reg File----------------
+RegFile Instruction: 181D064
+---------------Output of Reg File----------------
+RS1 Data: 00000000000000000000000000000000
+RS2 Data: 00000000000000000000000000000000
+RS3 Data: 00000000000000000000000000000000
+---------------Output of ID/EX Pipeline Reg----------------
+ID/EX Instruction: 1000443
+ID/EX RS1 Data: 0000000000000000000000007000FFFF
+ID/EX RS2 Data: 00000000000000080000000000007FFF
+ID/EX RS3 Data: 00000000000000020000000000007FFF
+---------------Output of Forwarding Unit----------------
+Forwarded Instruction: 1000443
+Forwarded RS1 Data: 00000000ABCD1100000000007000FFFF
+Forwarded RS2 Data: 00000000000000080000000000007FFF
+Forwarded RS3 Data: 00000000000000020000000000007FFF
+Forwarded RD Data for load: 0000000000001100000000007000FFFF
+---------------Output of ALU----------------
+ALU RegWrite: 1
+ALU RD Address: 03
+ALU Result: 00000000ABCD1110000000007FFFFFFF
+---------------Output of EX/WB Pipeline Reg----------------
+WB RegWrite: 1
+WB RD Address: 02
+WB RD Data: 00000000ABCD1100000000007000FFFF
+Pipeline Output: 00000000ABCD1100000000007000FFFF
+---------------------------------------
+
+
+
+
+Cycle: 14
+---------------Output of Instr Buff----------------
+Fetched Instruction: 1800000
+---------------Output of IF/ID Pipeline Reg----------------
+Decoded Instruction: 1863C65
+---------------Input of Reg File----------------
+RegFile Instruction: 1863C65
+---------------Output of Reg File----------------
+RS1 Data: 00000000000000000000000000000000
+RS2 Data: 00000000000000000000000000000000
+RS3 Data: 00000000000000000000000000000000
+---------------Output of ID/EX Pipeline Reg----------------
+ID/EX Instruction: 181D064
+ID/EX RS1 Data: 00000000000000000000000000000000
+ID/EX RS2 Data: 00000000000000000000000000000000
+ID/EX RS3 Data: 00000000000000000000000000000000
+---------------Output of Forwarding Unit----------------
+Forwarded Instruction: 181D064
+Forwarded RS1 Data: 00000000ABCD1110000000007FFFFFFF
+Forwarded RS2 Data: 00000000000000000000000000000000
+Forwarded RS3 Data: 00000000ABCD1110000000007FFFFFFF
+Forwarded RD Data for load: 0000000000001100000000007000FFFF
+---------------Output of ALU----------------
+ALU RegWrite: 1
+ALU RD Address: 04
+ALU Result: 000000000000000D000000000000001F
+---------------Output of EX/WB Pipeline Reg----------------
+WB RegWrite: 1
+WB RD Address: 03
+WB RD Data: 00000000ABCD1110000000007FFFFFFF
+Pipeline Output: 00000000ABCD1110000000007FFFFFFF
+---------------------------------------
+
+
+
+
+Cycle: 15
+---------------Output of Instr Buff----------------
+Fetched Instruction: 18390A6
+---------------Output of IF/ID Pipeline Reg----------------
+Decoded Instruction: 1800000
+---------------Input of Reg File----------------
+RegFile Instruction: 1800000
+---------------Output of Reg File----------------
+RS1 Data: 00000000000000020000000000007FFF
+RS2 Data: 00000000000000020000000000007FFF
+RS3 Data: 00000000000000020000000000007FFF
+---------------Output of ID/EX Pipeline Reg----------------
+ID/EX Instruction: 1863C65
+ID/EX RS1 Data: 00000000000000000000000000000000
+ID/EX RS2 Data: 00000000000000000000000000000000
+ID/EX RS3 Data: 00000000000000000000000000000000
+---------------Output of Forwarding Unit----------------
+Forwarded Instruction: 1863C65
+Forwarded RS1 Data: 00000000000000000000000000000000
+Forwarded RS2 Data: 00000000000000000000000000000000
+Forwarded RS3 Data: 00000000000000000000000000000000
+Forwarded RD Data for load: 0000000000001100000000007000FFFF
+---------------Output of ALU----------------
+ALU RegWrite: 1
+ALU RD Address: 05
+ALU Result: 00800070006000500040003000200010
+---------------Output of EX/WB Pipeline Reg----------------
+WB RegWrite: 1
+WB RD Address: 04
+WB RD Data: 000000000000000D000000000000001F
+Pipeline Output: 000000000000000D000000000000001F
+---------------------------------------
+
+
+
+
+Cycle: 16
+---------------Output of Instr Buff----------------
+Fetched Instruction: 0000000
+---------------Output of IF/ID Pipeline Reg----------------
+Decoded Instruction: 18390A6
+---------------Input of Reg File----------------
+RegFile Instruction: 18390A6
+---------------Output of Reg File----------------
+RS1 Data: 00000000000000000000000000000000
+RS2 Data: 000000000000000D000000000000001F
+RS3 Data: 00000000000000000000000000000000
+---------------Output of ID/EX Pipeline Reg----------------
+ID/EX Instruction: 1800000
+ID/EX RS1 Data: 00000000000000020000000000007FFF
+ID/EX RS2 Data: 00000000000000020000000000007FFF
+ID/EX RS3 Data: 00000000000000020000000000007FFF
+---------------Output of Forwarding Unit----------------
+Forwarded Instruction: 1800000
+Forwarded RS1 Data: 00000000000000020000000000007FFF
+Forwarded RS2 Data: 00000000000000020000000000007FFF
+Forwarded RS3 Data: 00000000000000020000000000007FFF
+Forwarded RD Data for load: 0000000000001100000000007000FFFF
+---------------Output of ALU----------------
+ALU RegWrite: 0
+ALU RD Address: 00
+ALU Result: 00800070006000500040003000200010
+---------------Output of EX/WB Pipeline Reg----------------
+WB RegWrite: 1
+WB RD Address: 05
+WB RD Data: 00800070006000500040003000200010
+Pipeline Output: 00800070006000500040003000200010
+---------------------------------------
+
+
+
+
+Cycle: 17
+---------------Output of Instr Buff----------------
+Fetched Instruction: 0000000
+---------------Output of IF/ID Pipeline Reg----------------
+Decoded Instruction: 0000000
+---------------Input of Reg File----------------
+RegFile Instruction: 0000000
+---------------Output of Reg File----------------
+RS1 Data: 00000000000000020000000000007FFF
+RS2 Data: 00000000000000020000000000007FFF
+RS3 Data: 00000000000000020000000000007FFF
+---------------Output of ID/EX Pipeline Reg----------------
+ID/EX Instruction: 18390A6
+ID/EX RS1 Data: 00000000000000000000000000000000
+ID/EX RS2 Data: 000000000000000D000000000000001F
+ID/EX RS3 Data: 00000000000000000000000000000000
+---------------Output of Forwarding Unit----------------
+Forwarded Instruction: 18390A6
+Forwarded RS1 Data: 00000000000000000000000000000000
+Forwarded RS2 Data: 000000000000000D000000000000001F
+Forwarded RS3 Data: 00000000000000000000000000000000
+Forwarded RD Data for load: 0000000000001100000000007000FFFF
+---------------Output of ALU----------------
+ALU RegWrite: 1
+ALU RD Address: 06
+ALU Result: 000000000000000D000000000000001F
+---------------Output of EX/WB Pipeline Reg----------------
+WB RegWrite: 0
+WB RD Address: 00
+WB RD Data: 00800070006000500040003000200010
+Pipeline Output: 00800070006000500040003000200010
+---------------------------------------
+
+
+
+
+Cycle: 18
+---------------Output of Instr Buff----------------
+Fetched Instruction: 0000000
+---------------Output of IF/ID Pipeline Reg----------------
+Decoded Instruction: 0000000
+---------------Input of Reg File----------------
+RegFile Instruction: 0000000
+---------------Output of Reg File----------------
+RS1 Data: 00000000000000020000000000007FFF
+RS2 Data: 00000000000000020000000000007FFF
+RS3 Data: 00000000000000020000000000007FFF
+---------------Output of ID/EX Pipeline Reg----------------
+ID/EX Instruction: 0000000
+ID/EX RS1 Data: 00000000000000020000000000007FFF
+ID/EX RS2 Data: 00000000000000020000000000007FFF
+ID/EX RS3 Data: 00000000000000020000000000007FFF
+---------------Output of Forwarding Unit----------------
+Forwarded Instruction: 0000000
+Forwarded RS1 Data: 00000000000000020000000000007FFF
+Forwarded RS2 Data: 00000000000000020000000000007FFF
+Forwarded RS3 Data: 00000000000000020000000000007FFF
+Forwarded RD Data for load: 0000000000001100000000007000FFFF
+---------------Output of ALU----------------
+ALU RegWrite: 1
+ALU RD Address: 00
+ALU Result: 00000000000000020000000000000000
+---------------Output of EX/WB Pipeline Reg----------------
+WB RegWrite: 1
+WB RD Address: 06
+WB RD Data: 000000000000000D000000000000001F
+Pipeline Output: 000000000000000D000000000000001F
+---------------------------------------
+
+
+
+
+Cycle: 19
+---------------Output of Instr Buff----------------
+Fetched Instruction: 0000000
+---------------Output of IF/ID Pipeline Reg----------------
+Decoded Instruction: 0000000
+---------------Input of Reg File----------------
+RegFile Instruction: 0000000
+---------------Output of Reg File----------------
+RS1 Data: 00000000000000020000000000007FFF
+RS2 Data: 00000000000000020000000000007FFF
+RS3 Data: 00000000000000020000000000007FFF
+---------------Output of ID/EX Pipeline Reg----------------
+ID/EX Instruction: 0000000
+ID/EX RS1 Data: 00000000000000020000000000007FFF
+ID/EX RS2 Data: 00000000000000020000000000007FFF
+ID/EX RS3 Data: 00000000000000020000000000007FFF
+---------------Output of Forwarding Unit----------------
+Forwarded Instruction: 0000000
+Forwarded RS1 Data: 00000000000000020000000000007FFF
+Forwarded RS2 Data: 00000000000000020000000000007FFF
+Forwarded RS3 Data: 00000000000000020000000000007FFF
+Forwarded RD Data for load: 0000000000001100000000007000FFFF
+---------------Output of ALU----------------
+ALU RegWrite: 1
+ALU RD Address: 00
+ALU Result: 00000000000000020000000000000000
+---------------Output of EX/WB Pipeline Reg----------------
+WB RegWrite: 1
+WB RD Address: 00
+WB RD Data: 00000000000000020000000000000000
+Pipeline Output: 00000000000000020000000000000000
+---------------------------------------
+
+
+
+
+Cycle: 20
+---------------Output of Instr Buff----------------
+Fetched Instruction: 0000000
+---------------Output of IF/ID Pipeline Reg----------------
+Decoded Instruction: 0000000
+---------------Input of Reg File----------------
+RegFile Instruction: 0000000
+---------------Output of Reg File----------------
+RS1 Data: 00000000000000020000000000007FFF
+RS2 Data: 00000000000000020000000000007FFF
+RS3 Data: 00000000000000020000000000007FFF
+---------------Output of ID/EX Pipeline Reg----------------
+ID/EX Instruction: 0000000
+ID/EX RS1 Data: 00000000000000020000000000007FFF
+ID/EX RS2 Data: 00000000000000020000000000007FFF
+ID/EX RS3 Data: 00000000000000020000000000007FFF
+---------------Output of Forwarding Unit----------------
+Forwarded Instruction: 0000000
+Forwarded RS1 Data: 00000000000000020000000000007FFF
+Forwarded RS2 Data: 00000000000000020000000000007FFF
+Forwarded RS3 Data: 00000000000000020000000000007FFF
+Forwarded RD Data for load: 0000000000001100000000007000FFFF
+---------------Output of ALU----------------
+ALU RegWrite: 1
+ALU RD Address: 00
+ALU Result: 00000000000000020000000000000000
+---------------Output of EX/WB Pipeline Reg----------------
+WB RegWrite: 1
+WB RD Address: 00
+WB RD Data: 00000000000000020000000000000000
+Pipeline Output: 00000000000000020000000000000000
+---------------------------------------
+
+
+
+
+Cycle: 21
+---------------Output of Instr Buff----------------
+Fetched Instruction: 0000000
+---------------Output of IF/ID Pipeline Reg----------------
+Decoded Instruction: 0000000
+---------------Input of Reg File----------------
+RegFile Instruction: 0000000
+---------------Output of Reg File----------------
+RS1 Data: 00000000000000020000000000007FFF
+RS2 Data: 00000000000000020000000000007FFF
+RS3 Data: 00000000000000020000000000007FFF
+---------------Output of ID/EX Pipeline Reg----------------
+ID/EX Instruction: 0000000
+ID/EX RS1 Data: 00000000000000020000000000007FFF
+ID/EX RS2 Data: 00000000000000020000000000007FFF
+ID/EX RS3 Data: 00000000000000020000000000007FFF
+---------------Output of Forwarding Unit----------------
+Forwarded Instruction: 0000000
+Forwarded RS1 Data: 00000000000000020000000000007FFF
+Forwarded RS2 Data: 00000000000000020000000000007FFF
+Forwarded RS3 Data: 00000000000000020000000000007FFF
+Forwarded RD Data for load: 0000000000001100000000007000FFFF
+---------------Output of ALU----------------
+ALU RegWrite: 1
+ALU RD Address: 00
+ALU Result: 00000000000000020000000000000000
+---------------Output of EX/WB Pipeline Reg----------------
+WB RegWrite: 1
+WB RD Address: 00
+WB RD Data: 00000000000000020000000000000000
+Pipeline Output: 00000000000000020000000000000000
+---------------------------------------
+
+
+
+
+Cycle: 22
+---------------Output of Instr Buff----------------
+Fetched Instruction: 0000000
+---------------Output of IF/ID Pipeline Reg----------------
+Decoded Instruction: 0000000
+---------------Input of Reg File----------------
+RegFile Instruction: 0000000
+---------------Output of Reg File----------------
+RS1 Data: 00000000000000020000000000007FFF
+RS2 Data: 00000000000000020000000000007FFF
+RS3 Data: 00000000000000020000000000007FFF
+---------------Output of ID/EX Pipeline Reg----------------
+ID/EX Instruction: 0000000
+ID/EX RS1 Data: 00000000000000020000000000007FFF
+ID/EX RS2 Data: 00000000000000020000000000007FFF
+ID/EX RS3 Data: 00000000000000020000000000007FFF
+---------------Output of Forwarding Unit----------------
+Forwarded Instruction: 0000000
+Forwarded RS1 Data: 00000000000000020000000000007FFF
+Forwarded RS2 Data: 00000000000000020000000000007FFF
+Forwarded RS3 Data: 00000000000000020000000000007FFF
+Forwarded RD Data for load: 0000000000001100000000007000FFFF
+---------------Output of ALU----------------
+ALU RegWrite: 1
+ALU RD Address: 00
+ALU Result: 00000000000000020000000000000000
+---------------Output of EX/WB Pipeline Reg----------------
+WB RegWrite: 1
+WB RD Address: 00
+WB RD Data: 00000000000000020000000000000000
+Pipeline Output: 00000000000000020000000000000000
+---------------------------------------
+
+
+
+
+Cycle: 23
+---------------Output of Instr Buff----------------
+Fetched Instruction: 0000000
+---------------Output of IF/ID Pipeline Reg----------------
+Decoded Instruction: 0000000
+---------------Input of Reg File----------------
+RegFile Instruction: 0000000
+---------------Output of Reg File----------------
+RS1 Data: 00000000000000020000000000007FFF
+RS2 Data: 00000000000000020000000000007FFF
+RS3 Data: 00000000000000020000000000007FFF
+---------------Output of ID/EX Pipeline Reg----------------
+ID/EX Instruction: 0000000
+ID/EX RS1 Data: 00000000000000020000000000007FFF
+ID/EX RS2 Data: 00000000000000020000000000007FFF
+ID/EX RS3 Data: 00000000000000020000000000007FFF
+---------------Output of Forwarding Unit----------------
+Forwarded Instruction: 0000000
+Forwarded RS1 Data: 00000000000000020000000000007FFF
+Forwarded RS2 Data: 00000000000000020000000000007FFF
+Forwarded RS3 Data: 00000000000000020000000000007FFF
+Forwarded RD Data for load: 0000000000001100000000007000FFFF
+---------------Output of ALU----------------
+ALU RegWrite: 1
+ALU RD Address: 00
+ALU Result: 00000000000000020000000000000000
+---------------Output of EX/WB Pipeline Reg----------------
+WB RegWrite: 1
+WB RD Address: 00
+WB RD Data: 00000000000000020000000000000000
+Pipeline Output: 00000000000000020000000000000000
+---------------------------------------
+
+
+
+
+Cycle: 24
+---------------Output of Instr Buff----------------
+Fetched Instruction: 0000000
+---------------Output of IF/ID Pipeline Reg----------------
+Decoded Instruction: 0000000
+---------------Input of Reg File----------------
+RegFile Instruction: 0000000
+---------------Output of Reg File----------------
+RS1 Data: 00000000000000020000000000007FFF
+RS2 Data: 00000000000000020000000000007FFF
+RS3 Data: 00000000000000020000000000007FFF
+---------------Output of ID/EX Pipeline Reg----------------
+ID/EX Instruction: 0000000
+ID/EX RS1 Data: 00000000000000020000000000007FFF
+ID/EX RS2 Data: 00000000000000020000000000007FFF
+ID/EX RS3 Data: 00000000000000020000000000007FFF
+---------------Output of Forwarding Unit----------------
+Forwarded Instruction: 0000000
+Forwarded RS1 Data: 00000000000000020000000000007FFF
+Forwarded RS2 Data: 00000000000000020000000000007FFF
+Forwarded RS3 Data: 00000000000000020000000000007FFF
+Forwarded RD Data for load: 0000000000001100000000007000FFFF
+---------------Output of ALU----------------
+ALU RegWrite: 1
+ALU RD Address: 00
+ALU Result: 00000000000000020000000000000000
+---------------Output of EX/WB Pipeline Reg----------------
+WB RegWrite: 1
+WB RD Address: 00
+WB RD Data: 00000000000000020000000000000000
+Pipeline Output: 00000000000000020000000000000000
+---------------------------------------
+
+
+
+
+Cycle: 25
+---------------Output of Instr Buff----------------
+Fetched Instruction: 0000000
+---------------Output of IF/ID Pipeline Reg----------------
+Decoded Instruction: 0000000
+---------------Input of Reg File----------------
+RegFile Instruction: 0000000
+---------------Output of Reg File----------------
+RS1 Data: 00000000000000020000000000007FFF
+RS2 Data: 00000000000000020000000000007FFF
+RS3 Data: 00000000000000020000000000007FFF
+---------------Output of ID/EX Pipeline Reg----------------
+ID/EX Instruction: 0000000
+ID/EX RS1 Data: 00000000000000020000000000007FFF
+ID/EX RS2 Data: 00000000000000020000000000007FFF
+ID/EX RS3 Data: 00000000000000020000000000007FFF
+---------------Output of Forwarding Unit----------------
+Forwarded Instruction: 0000000
+Forwarded RS1 Data: 00000000000000020000000000007FFF
+Forwarded RS2 Data: 00000000000000020000000000007FFF
+Forwarded RS3 Data: 00000000000000020000000000007FFF
+Forwarded RD Data for load: 0000000000001100000000007000FFFF
+---------------Output of ALU----------------
+ALU RegWrite: 1
+ALU RD Address: 00
+ALU Result: 00000000000000020000000000000000
+---------------Output of EX/WB Pipeline Reg----------------
+WB RegWrite: 1
+WB RD Address: 00
+WB RD Data: 00000000000000020000000000000000
+Pipeline Output: 00000000000000020000000000000000
+---------------------------------------
+
+
+
+
+Cycle: 26
+---------------Output of Instr Buff----------------
+Fetched Instruction: 0000000
+---------------Output of IF/ID Pipeline Reg----------------
+Decoded Instruction: 0000000
+---------------Input of Reg File----------------
+RegFile Instruction: 0000000
+---------------Output of Reg File----------------
+RS1 Data: 00000000000000020000000000007FFF
+RS2 Data: 00000000000000020000000000007FFF
+RS3 Data: 00000000000000020000000000007FFF
+---------------Output of ID/EX Pipeline Reg----------------
+ID/EX Instruction: 0000000
+ID/EX RS1 Data: 00000000000000020000000000007FFF
+ID/EX RS2 Data: 00000000000000020000000000007FFF
+ID/EX RS3 Data: 00000000000000020000000000007FFF
+---------------Output of Forwarding Unit----------------
+Forwarded Instruction: 0000000
+Forwarded RS1 Data: 00000000000000020000000000007FFF
+Forwarded RS2 Data: 00000000000000020000000000007FFF
+Forwarded RS3 Data: 00000000000000020000000000007FFF
+Forwarded RD Data for load: 0000000000001100000000007000FFFF
+---------------Output of ALU----------------
+ALU RegWrite: 1
+ALU RD Address: 00
+ALU Result: 00000000000000020000000000000000
+---------------Output of EX/WB Pipeline Reg----------------
+WB RegWrite: 1
+WB RD Address: 00
+WB RD Data: 00000000000000020000000000000000
+Pipeline Output: 00000000000000020000000000000000
+---------------------------------------
+
+
+
+
+Cycle: 27
+---------------Output of Instr Buff----------------
+Fetched Instruction: 0000000
+---------------Output of IF/ID Pipeline Reg----------------
+Decoded Instruction: 0000000
+---------------Input of Reg File----------------
+RegFile Instruction: 0000000
+---------------Output of Reg File----------------
+RS1 Data: 00000000000000020000000000007FFF
+RS2 Data: 00000000000000020000000000007FFF
+RS3 Data: 00000000000000020000000000007FFF
+---------------Output of ID/EX Pipeline Reg----------------
+ID/EX Instruction: 0000000
+ID/EX RS1 Data: 00000000000000020000000000007FFF
+ID/EX RS2 Data: 00000000000000020000000000007FFF
+ID/EX RS3 Data: 00000000000000020000000000007FFF
+---------------Output of Forwarding Unit----------------
+Forwarded Instruction: 0000000
+Forwarded RS1 Data: 00000000000000020000000000007FFF
+Forwarded RS2 Data: 00000000000000020000000000007FFF
+Forwarded RS3 Data: 00000000000000020000000000007FFF
+Forwarded RD Data for load: 0000000000001100000000007000FFFF
+---------------Output of ALU----------------
+ALU RegWrite: 1
+ALU RD Address: 00
+ALU Result: 00000000000000020000000000000000
+---------------Output of EX/WB Pipeline Reg----------------
+WB RegWrite: 1
+WB RD Address: 00
+WB RD Data: 00000000000000020000000000000000
+Pipeline Output: 00000000000000020000000000000000
+---------------------------------------
+
+
+
+
+Cycle: 28
+---------------Output of Instr Buff----------------
+Fetched Instruction: 0000000
+---------------Output of IF/ID Pipeline Reg----------------
+Decoded Instruction: 0000000
+---------------Input of Reg File----------------
+RegFile Instruction: 0000000
+---------------Output of Reg File----------------
+RS1 Data: 00000000000000020000000000007FFF
+RS2 Data: 00000000000000020000000000007FFF
+RS3 Data: 00000000000000020000000000007FFF
+---------------Output of ID/EX Pipeline Reg----------------
+ID/EX Instruction: 0000000
+ID/EX RS1 Data: 00000000000000020000000000007FFF
+ID/EX RS2 Data: 00000000000000020000000000007FFF
+ID/EX RS3 Data: 00000000000000020000000000007FFF
+---------------Output of Forwarding Unit----------------
+Forwarded Instruction: 0000000
+Forwarded RS1 Data: 00000000000000020000000000007FFF
+Forwarded RS2 Data: 00000000000000020000000000007FFF
+Forwarded RS3 Data: 00000000000000020000000000007FFF
+Forwarded RD Data for load: 0000000000001100000000007000FFFF
+---------------Output of ALU----------------
+ALU RegWrite: 1
+ALU RD Address: 00
+ALU Result: 00000000000000020000000000000000
+---------------Output of EX/WB Pipeline Reg----------------
+WB RegWrite: 1
+WB RD Address: 00
+WB RD Data: 00000000000000020000000000000000
+Pipeline Output: 00000000000000020000000000000000
+---------------------------------------
+
+
+
+
+Cycle: 29
+---------------Output of Instr Buff----------------
+Fetched Instruction: 0000000
+---------------Output of IF/ID Pipeline Reg----------------
+Decoded Instruction: 0000000
+---------------Input of Reg File----------------
+RegFile Instruction: 0000000
+---------------Output of Reg File----------------
+RS1 Data: 00000000000000020000000000007FFF
+RS2 Data: 00000000000000020000000000007FFF
+RS3 Data: 00000000000000020000000000007FFF
+---------------Output of ID/EX Pipeline Reg----------------
+ID/EX Instruction: 0000000
+ID/EX RS1 Data: 00000000000000020000000000007FFF
+ID/EX RS2 Data: 00000000000000020000000000007FFF
+ID/EX RS3 Data: 00000000000000020000000000007FFF
+---------------Output of Forwarding Unit----------------
+Forwarded Instruction: 0000000
+Forwarded RS1 Data: 00000000000000020000000000007FFF
+Forwarded RS2 Data: 00000000000000020000000000007FFF
+Forwarded RS3 Data: 00000000000000020000000000007FFF
+Forwarded RD Data for load: 0000000000001100000000007000FFFF
+---------------Output of ALU----------------
+ALU RegWrite: 1
+ALU RD Address: 00
+ALU Result: 00000000000000020000000000000000
+---------------Output of EX/WB Pipeline Reg----------------
+WB RegWrite: 1
+WB RD Address: 00
+WB RD Data: 00000000000000020000000000000000
+Pipeline Output: 00000000000000020000000000000000
+---------------------------------------
+
+
+
+
+Cycle: 30
+---------------Output of Instr Buff----------------
+Fetched Instruction: 0000000
+---------------Output of IF/ID Pipeline Reg----------------
+Decoded Instruction: 0000000
+---------------Input of Reg File----------------
+RegFile Instruction: 0000000
+---------------Output of Reg File----------------
+RS1 Data: 00000000000000020000000000007FFF
+RS2 Data: 00000000000000020000000000007FFF
+RS3 Data: 00000000000000020000000000007FFF
+---------------Output of ID/EX Pipeline Reg----------------
+ID/EX Instruction: 0000000
+ID/EX RS1 Data: 00000000000000020000000000007FFF
+ID/EX RS2 Data: 00000000000000020000000000007FFF
+ID/EX RS3 Data: 00000000000000020000000000007FFF
+---------------Output of Forwarding Unit----------------
+Forwarded Instruction: 0000000
+Forwarded RS1 Data: 00000000000000020000000000007FFF
+Forwarded RS2 Data: 00000000000000020000000000007FFF
+Forwarded RS3 Data: 00000000000000020000000000007FFF
+Forwarded RD Data for load: 0000000000001100000000007000FFFF
+---------------Output of ALU----------------
+ALU RegWrite: 1
+ALU RD Address: 00
+ALU Result: 00000000000000020000000000000000
+---------------Output of EX/WB Pipeline Reg----------------
+WB RegWrite: 1
+WB RD Address: 00
+WB RD Data: 00000000000000020000000000000000
+Pipeline Output: 00000000000000020000000000000000
+---------------------------------------
+
+
+
+
+Cycle: 31
+---------------Output of Instr Buff----------------
+Fetched Instruction: 0000000
+---------------Output of IF/ID Pipeline Reg----------------
+Decoded Instruction: 0000000
+---------------Input of Reg File----------------
+RegFile Instruction: 0000000
+---------------Output of Reg File----------------
+RS1 Data: 00000000000000020000000000007FFF
+RS2 Data: 00000000000000020000000000007FFF
+RS3 Data: 00000000000000020000000000007FFF
+---------------Output of ID/EX Pipeline Reg----------------
+ID/EX Instruction: 0000000
+ID/EX RS1 Data: 00000000000000020000000000007FFF
+ID/EX RS2 Data: 00000000000000020000000000007FFF
+ID/EX RS3 Data: 00000000000000020000000000007FFF
+---------------Output of Forwarding Unit----------------
+Forwarded Instruction: 0000000
+Forwarded RS1 Data: 00000000000000020000000000007FFF
+Forwarded RS2 Data: 00000000000000020000000000007FFF
+Forwarded RS3 Data: 00000000000000020000000000007FFF
+Forwarded RD Data for load: 0000000000001100000000007000FFFF
+---------------Output of ALU----------------
+ALU RegWrite: 1
+ALU RD Address: 00
+ALU Result: 00000000000000020000000000000000
+---------------Output of EX/WB Pipeline Reg----------------
+WB RegWrite: 1
+WB RD Address: 00
+WB RD Data: 00000000000000020000000000000000
+Pipeline Output: 00000000000000020000000000000000
+---------------------------------------
+
+
+
+
+Cycle: 32
+---------------Output of Instr Buff----------------
+Fetched Instruction: 0000000
+---------------Output of IF/ID Pipeline Reg----------------
+Decoded Instruction: 0000000
+---------------Input of Reg File----------------
+RegFile Instruction: 0000000
+---------------Output of Reg File----------------
+RS1 Data: 00000000000000020000000000007FFF
+RS2 Data: 00000000000000020000000000007FFF
+RS3 Data: 00000000000000020000000000007FFF
+---------------Output of ID/EX Pipeline Reg----------------
+ID/EX Instruction: 0000000
+ID/EX RS1 Data: 00000000000000020000000000007FFF
+ID/EX RS2 Data: 00000000000000020000000000007FFF
+ID/EX RS3 Data: 00000000000000020000000000007FFF
+---------------Output of Forwarding Unit----------------
+Forwarded Instruction: 0000000
+Forwarded RS1 Data: 00000000000000020000000000007FFF
+Forwarded RS2 Data: 00000000000000020000000000007FFF
+Forwarded RS3 Data: 00000000000000020000000000007FFF
+Forwarded RD Data for load: 0000000000001100000000007000FFFF
+---------------Output of ALU----------------
+ALU RegWrite: 1
+ALU RD Address: 00
+ALU Result: 00000000000000020000000000000000
+---------------Output of EX/WB Pipeline Reg----------------
+WB RegWrite: 1
+WB RD Address: 00
+WB RD Data: 00000000000000020000000000000000
+Pipeline Output: 00000000000000020000000000000000
+---------------------------------------
+
+
+
+
+Cycle: 33
+---------------Output of Instr Buff----------------
+Fetched Instruction: 0000000
+---------------Output of IF/ID Pipeline Reg----------------
+Decoded Instruction: 0000000
+---------------Input of Reg File----------------
+RegFile Instruction: 0000000
+---------------Output of Reg File----------------
+RS1 Data: 00000000000000020000000000007FFF
+RS2 Data: 00000000000000020000000000007FFF
+RS3 Data: 00000000000000020000000000007FFF
+---------------Output of ID/EX Pipeline Reg----------------
+ID/EX Instruction: 0000000
+ID/EX RS1 Data: 00000000000000020000000000007FFF
+ID/EX RS2 Data: 00000000000000020000000000007FFF
+ID/EX RS3 Data: 00000000000000020000000000007FFF
+---------------Output of Forwarding Unit----------------
+Forwarded Instruction: 0000000
+Forwarded RS1 Data: 00000000000000020000000000007FFF
+Forwarded RS2 Data: 00000000000000020000000000007FFF
+Forwarded RS3 Data: 00000000000000020000000000007FFF
+Forwarded RD Data for load: 0000000000001100000000007000FFFF
+---------------Output of ALU----------------
+ALU RegWrite: 1
+ALU RD Address: 00
+ALU Result: 00000000000000020000000000000000
+---------------Output of EX/WB Pipeline Reg----------------
+WB RegWrite: 1
+WB RD Address: 00
+WB RD Data: 00000000000000020000000000000000
+Pipeline Output: 00000000000000020000000000000000
+---------------------------------------
+
+
+
+
+Cycle: 34
+---------------Output of Instr Buff----------------
+Fetched Instruction: 0000000
+---------------Output of IF/ID Pipeline Reg----------------
+Decoded Instruction: 0000000
+---------------Input of Reg File----------------
+RegFile Instruction: 0000000
+---------------Output of Reg File----------------
+RS1 Data: 00000000000000020000000000007FFF
+RS2 Data: 00000000000000020000000000007FFF
+RS3 Data: 00000000000000020000000000007FFF
+---------------Output of ID/EX Pipeline Reg----------------
+ID/EX Instruction: 0000000
+ID/EX RS1 Data: 00000000000000020000000000007FFF
+ID/EX RS2 Data: 00000000000000020000000000007FFF
+ID/EX RS3 Data: 00000000000000020000000000007FFF
+---------------Output of Forwarding Unit----------------
+Forwarded Instruction: 0000000
+Forwarded RS1 Data: 00000000000000020000000000007FFF
+Forwarded RS2 Data: 00000000000000020000000000007FFF
+Forwarded RS3 Data: 00000000000000020000000000007FFF
+Forwarded RD Data for load: 0000000000001100000000007000FFFF
+---------------Output of ALU----------------
+ALU RegWrite: 1
+ALU RD Address: 00
+ALU Result: 00000000000000020000000000000000
+---------------Output of EX/WB Pipeline Reg----------------
+WB RegWrite: 1
+WB RD Address: 00
+WB RD Data: 00000000000000020000000000000000
+Pipeline Output: 00000000000000020000000000000000
+---------------------------------------
+
+
+
+
+Cycle: 35
+---------------Output of Instr Buff----------------
+Fetched Instruction: 0000000
+---------------Output of IF/ID Pipeline Reg----------------
+Decoded Instruction: 0000000
+---------------Input of Reg File----------------
+RegFile Instruction: 0000000
+---------------Output of Reg File----------------
+RS1 Data: 00000000000000020000000000007FFF
+RS2 Data: 00000000000000020000000000007FFF
+RS3 Data: 00000000000000020000000000007FFF
+---------------Output of ID/EX Pipeline Reg----------------
+ID/EX Instruction: 0000000
+ID/EX RS1 Data: 00000000000000020000000000007FFF
+ID/EX RS2 Data: 00000000000000020000000000007FFF
+ID/EX RS3 Data: 00000000000000020000000000007FFF
+---------------Output of Forwarding Unit----------------
+Forwarded Instruction: 0000000
+Forwarded RS1 Data: 00000000000000020000000000007FFF
+Forwarded RS2 Data: 00000000000000020000000000007FFF
+Forwarded RS3 Data: 00000000000000020000000000007FFF
+Forwarded RD Data for load: 0000000000001100000000007000FFFF
+---------------Output of ALU----------------
+ALU RegWrite: 1
+ALU RD Address: 00
+ALU Result: 00000000000000020000000000000000
+---------------Output of EX/WB Pipeline Reg----------------
+WB RegWrite: 1
+WB RD Address: 00
+WB RD Data: 00000000000000020000000000000000
+Pipeline Output: 00000000000000020000000000000000
+---------------------------------------
+
+
+
+
+Cycle: 36
+---------------Output of Instr Buff----------------
+Fetched Instruction: 0000000
+---------------Output of IF/ID Pipeline Reg----------------
+Decoded Instruction: 0000000
+---------------Input of Reg File----------------
+RegFile Instruction: 0000000
+---------------Output of Reg File----------------
+RS1 Data: 00000000000000020000000000007FFF
+RS2 Data: 00000000000000020000000000007FFF
+RS3 Data: 00000000000000020000000000007FFF
+---------------Output of ID/EX Pipeline Reg----------------
+ID/EX Instruction: 0000000
+ID/EX RS1 Data: 00000000000000020000000000007FFF
+ID/EX RS2 Data: 00000000000000020000000000007FFF
+ID/EX RS3 Data: 00000000000000020000000000007FFF
+---------------Output of Forwarding Unit----------------
+Forwarded Instruction: 0000000
+Forwarded RS1 Data: 00000000000000020000000000007FFF
+Forwarded RS2 Data: 00000000000000020000000000007FFF
+Forwarded RS3 Data: 00000000000000020000000000007FFF
+Forwarded RD Data for load: 0000000000001100000000007000FFFF
+---------------Output of ALU----------------
+ALU RegWrite: 1
+ALU RD Address: 00
+ALU Result: 00000000000000020000000000000000
+---------------Output of EX/WB Pipeline Reg----------------
+WB RegWrite: 1
+WB RD Address: 00
+WB RD Data: 00000000000000020000000000000000
+Pipeline Output: 00000000000000020000000000000000
+---------------------------------------
+
+
+
+
+Cycle: 37
+---------------Output of Instr Buff----------------
+Fetched Instruction: 0000000
+---------------Output of IF/ID Pipeline Reg----------------
+Decoded Instruction: 0000000
+---------------Input of Reg File----------------
+RegFile Instruction: 0000000
+---------------Output of Reg File----------------
+RS1 Data: 00000000000000020000000000007FFF
+RS2 Data: 00000000000000020000000000007FFF
+RS3 Data: 00000000000000020000000000007FFF
+---------------Output of ID/EX Pipeline Reg----------------
+ID/EX Instruction: 0000000
+ID/EX RS1 Data: 00000000000000020000000000007FFF
+ID/EX RS2 Data: 00000000000000020000000000007FFF
+ID/EX RS3 Data: 00000000000000020000000000007FFF
+---------------Output of Forwarding Unit----------------
+Forwarded Instruction: 0000000
+Forwarded RS1 Data: 00000000000000020000000000007FFF
+Forwarded RS2 Data: 00000000000000020000000000007FFF
+Forwarded RS3 Data: 00000000000000020000000000007FFF
+Forwarded RD Data for load: 0000000000001100000000007000FFFF
+---------------Output of ALU----------------
+ALU RegWrite: 1
+ALU RD Address: 00
+ALU Result: 00000000000000020000000000000000
+---------------Output of EX/WB Pipeline Reg----------------
+WB RegWrite: 1
+WB RD Address: 00
+WB RD Data: 00000000000000020000000000000000
+Pipeline Output: 00000000000000020000000000000000
+---------------------------------------
+
+
+
+
+Cycle: 38
+---------------Output of Instr Buff----------------
+Fetched Instruction: 0000000
+---------------Output of IF/ID Pipeline Reg----------------
+Decoded Instruction: 0000000
+---------------Input of Reg File----------------
+RegFile Instruction: 0000000
+---------------Output of Reg File----------------
+RS1 Data: 00000000000000020000000000007FFF
+RS2 Data: 00000000000000020000000000007FFF
+RS3 Data: 00000000000000020000000000007FFF
+---------------Output of ID/EX Pipeline Reg----------------
+ID/EX Instruction: 0000000
+ID/EX RS1 Data: 00000000000000020000000000007FFF
+ID/EX RS2 Data: 00000000000000020000000000007FFF
+ID/EX RS3 Data: 00000000000000020000000000007FFF
+---------------Output of Forwarding Unit----------------
+Forwarded Instruction: 0000000
+Forwarded RS1 Data: 00000000000000020000000000007FFF
+Forwarded RS2 Data: 00000000000000020000000000007FFF
+Forwarded RS3 Data: 00000000000000020000000000007FFF
+Forwarded RD Data for load: 0000000000001100000000007000FFFF
+---------------Output of ALU----------------
+ALU RegWrite: 1
+ALU RD Address: 00
+ALU Result: 00000000000000020000000000000000
+---------------Output of EX/WB Pipeline Reg----------------
+WB RegWrite: 1
+WB RD Address: 00
+WB RD Data: 00000000000000020000000000000000
+Pipeline Output: 00000000000000020000000000000000
+---------------------------------------
+
+
+
+
+Cycle: 39
+---------------Output of Instr Buff----------------
+Fetched Instruction: 0000000
+---------------Output of IF/ID Pipeline Reg----------------
+Decoded Instruction: 0000000
+---------------Input of Reg File----------------
+RegFile Instruction: 0000000
+---------------Output of Reg File----------------
+RS1 Data: 00000000000000020000000000007FFF
+RS2 Data: 00000000000000020000000000007FFF
+RS3 Data: 00000000000000020000000000007FFF
+---------------Output of ID/EX Pipeline Reg----------------
+ID/EX Instruction: 0000000
+ID/EX RS1 Data: 00000000000000020000000000007FFF
+ID/EX RS2 Data: 00000000000000020000000000007FFF
+ID/EX RS3 Data: 00000000000000020000000000007FFF
+---------------Output of Forwarding Unit----------------
+Forwarded Instruction: 0000000
+Forwarded RS1 Data: 00000000000000020000000000007FFF
+Forwarded RS2 Data: 00000000000000020000000000007FFF
+Forwarded RS3 Data: 00000000000000020000000000007FFF
+Forwarded RD Data for load: 0000000000001100000000007000FFFF
+---------------Output of ALU----------------
+ALU RegWrite: 1
+ALU RD Address: 00
+ALU Result: 00000000000000020000000000000000
+---------------Output of EX/WB Pipeline Reg----------------
+WB RegWrite: 1
+WB RD Address: 00
+WB RD Data: 00000000000000020000000000000000
+Pipeline Output: 00000000000000020000000000000000
+---------------------------------------
+
+
+
+
+Cycle: 40
+---------------Output of Instr Buff----------------
+Fetched Instruction: 0000000
+---------------Output of IF/ID Pipeline Reg----------------
+Decoded Instruction: 0000000
+---------------Input of Reg File----------------
+RegFile Instruction: 0000000
+---------------Output of Reg File----------------
+RS1 Data: 00000000000000020000000000007FFF
+RS2 Data: 00000000000000020000000000007FFF
+RS3 Data: 00000000000000020000000000007FFF
+---------------Output of ID/EX Pipeline Reg----------------
+ID/EX Instruction: 0000000
+ID/EX RS1 Data: 00000000000000020000000000007FFF
+ID/EX RS2 Data: 00000000000000020000000000007FFF
+ID/EX RS3 Data: 00000000000000020000000000007FFF
+---------------Output of Forwarding Unit----------------
+Forwarded Instruction: 0000000
+Forwarded RS1 Data: 00000000000000020000000000007FFF
+Forwarded RS2 Data: 00000000000000020000000000007FFF
+Forwarded RS3 Data: 00000000000000020000000000007FFF
+Forwarded RD Data for load: 0000000000001100000000007000FFFF
+---------------Output of ALU----------------
+ALU RegWrite: 1
+ALU RD Address: 00
+ALU Result: 00000000000000020000000000000000
+---------------Output of EX/WB Pipeline Reg----------------
+WB RegWrite: 1
+WB RD Address: 00
+WB RD Data: 00000000000000020000000000000000
+Pipeline Output: 00000000000000020000000000000000
+---------------------------------------
+
+
+
+
+Cycle: 41
+---------------Output of Instr Buff----------------
+Fetched Instruction: 0000000
+---------------Output of IF/ID Pipeline Reg----------------
+Decoded Instruction: 0000000
+---------------Input of Reg File----------------
+RegFile Instruction: 0000000
+---------------Output of Reg File----------------
+RS1 Data: 00000000000000020000000000007FFF
+RS2 Data: 00000000000000020000000000007FFF
+RS3 Data: 00000000000000020000000000007FFF
+---------------Output of ID/EX Pipeline Reg----------------
+ID/EX Instruction: 0000000
+ID/EX RS1 Data: 00000000000000020000000000007FFF
+ID/EX RS2 Data: 00000000000000020000000000007FFF
+ID/EX RS3 Data: 00000000000000020000000000007FFF
+---------------Output of Forwarding Unit----------------
+Forwarded Instruction: 0000000
+Forwarded RS1 Data: 00000000000000020000000000007FFF
+Forwarded RS2 Data: 00000000000000020000000000007FFF
+Forwarded RS3 Data: 00000000000000020000000000007FFF
+Forwarded RD Data for load: 0000000000001100000000007000FFFF
+---------------Output of ALU----------------
+ALU RegWrite: 1
+ALU RD Address: 00
+ALU Result: 00000000000000020000000000000000
+---------------Output of EX/WB Pipeline Reg----------------
+WB RegWrite: 1
+WB RD Address: 00
+WB RD Data: 00000000000000020000000000000000
+Pipeline Output: 00000000000000020000000000000000
+---------------------------------------
+
+
+
+
+Cycle: 42
+---------------Output of Instr Buff----------------
+Fetched Instruction: 0000000
+---------------Output of IF/ID Pipeline Reg----------------
+Decoded Instruction: 0000000
+---------------Input of Reg File----------------
+RegFile Instruction: 0000000
+---------------Output of Reg File----------------
+RS1 Data: 00000000000000020000000000007FFF
+RS2 Data: 00000000000000020000000000007FFF
+RS3 Data: 00000000000000020000000000007FFF
+---------------Output of ID/EX Pipeline Reg----------------
+ID/EX Instruction: 0000000
+ID/EX RS1 Data: 00000000000000020000000000007FFF
+ID/EX RS2 Data: 00000000000000020000000000007FFF
+ID/EX RS3 Data: 00000000000000020000000000007FFF
+---------------Output of Forwarding Unit----------------
+Forwarded Instruction: 0000000
+Forwarded RS1 Data: 00000000000000020000000000007FFF
+Forwarded RS2 Data: 00000000000000020000000000007FFF
+Forwarded RS3 Data: 00000000000000020000000000007FFF
+Forwarded RD Data for load: 0000000000001100000000007000FFFF
+---------------Output of ALU----------------
+ALU RegWrite: 1
+ALU RD Address: 00
+ALU Result: 00000000000000020000000000000000
+---------------Output of EX/WB Pipeline Reg----------------
+WB RegWrite: 1
+WB RD Address: 00
+WB RD Data: 00000000000000020000000000000000
+Pipeline Output: 00000000000000020000000000000000
+---------------------------------------
+
+
+
+
+Cycle: 43
+---------------Output of Instr Buff----------------
+Fetched Instruction: 0000000
+---------------Output of IF/ID Pipeline Reg----------------
+Decoded Instruction: 0000000
+---------------Input of Reg File----------------
+RegFile Instruction: 0000000
+---------------Output of Reg File----------------
+RS1 Data: 00000000000000020000000000007FFF
+RS2 Data: 00000000000000020000000000007FFF
+RS3 Data: 00000000000000020000000000007FFF
+---------------Output of ID/EX Pipeline Reg----------------
+ID/EX Instruction: 0000000
+ID/EX RS1 Data: 00000000000000020000000000007FFF
+ID/EX RS2 Data: 00000000000000020000000000007FFF
+ID/EX RS3 Data: 00000000000000020000000000007FFF
+---------------Output of Forwarding Unit----------------
+Forwarded Instruction: 0000000
+Forwarded RS1 Data: 00000000000000020000000000007FFF
+Forwarded RS2 Data: 00000000000000020000000000007FFF
+Forwarded RS3 Data: 00000000000000020000000000007FFF
+Forwarded RD Data for load: 0000000000001100000000007000FFFF
+---------------Output of ALU----------------
+ALU RegWrite: 1
+ALU RD Address: 00
+ALU Result: 00000000000000020000000000000000
+---------------Output of EX/WB Pipeline Reg----------------
+WB RegWrite: 1
+WB RD Address: 00
+WB RD Data: 00000000000000020000000000000000
+Pipeline Output: 00000000000000020000000000000000
+---------------------------------------
+
+
+
+
+Cycle: 44
+---------------Output of Instr Buff----------------
+Fetched Instruction: 0000000
+---------------Output of IF/ID Pipeline Reg----------------
+Decoded Instruction: 0000000
+---------------Input of Reg File----------------
+RegFile Instruction: 0000000
+---------------Output of Reg File----------------
+RS1 Data: 00000000000000020000000000007FFF
+RS2 Data: 00000000000000020000000000007FFF
+RS3 Data: 00000000000000020000000000007FFF
+---------------Output of ID/EX Pipeline Reg----------------
+ID/EX Instruction: 0000000
+ID/EX RS1 Data: 00000000000000020000000000007FFF
+ID/EX RS2 Data: 00000000000000020000000000007FFF
+ID/EX RS3 Data: 00000000000000020000000000007FFF
+---------------Output of Forwarding Unit----------------
+Forwarded Instruction: 0000000
+Forwarded RS1 Data: 00000000000000020000000000007FFF
+Forwarded RS2 Data: 00000000000000020000000000007FFF
+Forwarded RS3 Data: 00000000000000020000000000007FFF
+Forwarded RD Data for load: 0000000000001100000000007000FFFF
+---------------Output of ALU----------------
+ALU RegWrite: 1
+ALU RD Address: 00
+ALU Result: 00000000000000020000000000000000
+---------------Output of EX/WB Pipeline Reg----------------
+WB RegWrite: 1
+WB RD Address: 00
+WB RD Data: 00000000000000020000000000000000
+Pipeline Output: 00000000000000020000000000000000
+---------------------------------------
+
+
+
+
+Cycle: 45
+---------------Output of Instr Buff----------------
+Fetched Instruction: 0000000
+---------------Output of IF/ID Pipeline Reg----------------
+Decoded Instruction: 0000000
+---------------Input of Reg File----------------
+RegFile Instruction: 0000000
+---------------Output of Reg File----------------
+RS1 Data: 00000000000000020000000000007FFF
+RS2 Data: 00000000000000020000000000007FFF
+RS3 Data: 00000000000000020000000000007FFF
+---------------Output of ID/EX Pipeline Reg----------------
+ID/EX Instruction: 0000000
+ID/EX RS1 Data: 00000000000000020000000000007FFF
+ID/EX RS2 Data: 00000000000000020000000000007FFF
+ID/EX RS3 Data: 00000000000000020000000000007FFF
+---------------Output of Forwarding Unit----------------
+Forwarded Instruction: 0000000
+Forwarded RS1 Data: 00000000000000020000000000007FFF
+Forwarded RS2 Data: 00000000000000020000000000007FFF
+Forwarded RS3 Data: 00000000000000020000000000007FFF
+Forwarded RD Data for load: 0000000000001100000000007000FFFF
+---------------Output of ALU----------------
+ALU RegWrite: 1
+ALU RD Address: 00
+ALU Result: 00000000000000020000000000000000
+---------------Output of EX/WB Pipeline Reg----------------
+WB RegWrite: 1
+WB RD Address: 00
+WB RD Data: 00000000000000020000000000000000
+Pipeline Output: 00000000000000020000000000000000
+---------------------------------------
+
+
+
+
+Cycle: 46
+---------------Output of Instr Buff----------------
+Fetched Instruction: 0000000
+---------------Output of IF/ID Pipeline Reg----------------
+Decoded Instruction: 0000000
+---------------Input of Reg File----------------
+RegFile Instruction: 0000000
+---------------Output of Reg File----------------
+RS1 Data: 00000000000000020000000000007FFF
+RS2 Data: 00000000000000020000000000007FFF
+RS3 Data: 00000000000000020000000000007FFF
+---------------Output of ID/EX Pipeline Reg----------------
+ID/EX Instruction: 0000000
+ID/EX RS1 Data: 00000000000000020000000000007FFF
+ID/EX RS2 Data: 00000000000000020000000000007FFF
+ID/EX RS3 Data: 00000000000000020000000000007FFF
+---------------Output of Forwarding Unit----------------
+Forwarded Instruction: 0000000
+Forwarded RS1 Data: 00000000000000020000000000007FFF
+Forwarded RS2 Data: 00000000000000020000000000007FFF
+Forwarded RS3 Data: 00000000000000020000000000007FFF
+Forwarded RD Data for load: 0000000000001100000000007000FFFF
+---------------Output of ALU----------------
+ALU RegWrite: 1
+ALU RD Address: 00
+ALU Result: 00000000000000020000000000000000
+---------------Output of EX/WB Pipeline Reg----------------
+WB RegWrite: 1
+WB RD Address: 00
+WB RD Data: 00000000000000020000000000000000
+Pipeline Output: 00000000000000020000000000000000
+---------------------------------------
+
+
+
+
+Cycle: 47
+---------------Output of Instr Buff----------------
+Fetched Instruction: 0000000
+---------------Output of IF/ID Pipeline Reg----------------
+Decoded Instruction: 0000000
+---------------Input of Reg File----------------
+RegFile Instruction: 0000000
+---------------Output of Reg File----------------
+RS1 Data: 00000000000000020000000000007FFF
+RS2 Data: 00000000000000020000000000007FFF
+RS3 Data: 00000000000000020000000000007FFF
+---------------Output of ID/EX Pipeline Reg----------------
+ID/EX Instruction: 0000000
+ID/EX RS1 Data: 00000000000000020000000000007FFF
+ID/EX RS2 Data: 00000000000000020000000000007FFF
+ID/EX RS3 Data: 00000000000000020000000000007FFF
+---------------Output of Forwarding Unit----------------
+Forwarded Instruction: 0000000
+Forwarded RS1 Data: 00000000000000020000000000007FFF
+Forwarded RS2 Data: 00000000000000020000000000007FFF
+Forwarded RS3 Data: 00000000000000020000000000007FFF
+Forwarded RD Data for load: 0000000000001100000000007000FFFF
+---------------Output of ALU----------------
+ALU RegWrite: 1
+ALU RD Address: 00
+ALU Result: 00000000000000020000000000000000
+---------------Output of EX/WB Pipeline Reg----------------
+WB RegWrite: 1
+WB RD Address: 00
+WB RD Data: 00000000000000020000000000000000
+Pipeline Output: 00000000000000020000000000000000
+---------------------------------------
+
+
+
+
+Cycle: 48
+---------------Output of Instr Buff----------------
+Fetched Instruction: 0000000
+---------------Output of IF/ID Pipeline Reg----------------
+Decoded Instruction: 0000000
+---------------Input of Reg File----------------
+RegFile Instruction: 0000000
+---------------Output of Reg File----------------
+RS1 Data: 00000000000000020000000000007FFF
+RS2 Data: 00000000000000020000000000007FFF
+RS3 Data: 00000000000000020000000000007FFF
+---------------Output of ID/EX Pipeline Reg----------------
+ID/EX Instruction: 0000000
+ID/EX RS1 Data: 00000000000000020000000000007FFF
+ID/EX RS2 Data: 00000000000000020000000000007FFF
+ID/EX RS3 Data: 00000000000000020000000000007FFF
+---------------Output of Forwarding Unit----------------
+Forwarded Instruction: 0000000
+Forwarded RS1 Data: 00000000000000020000000000007FFF
+Forwarded RS2 Data: 00000000000000020000000000007FFF
+Forwarded RS3 Data: 00000000000000020000000000007FFF
+Forwarded RD Data for load: 0000000000001100000000007000FFFF
+---------------Output of ALU----------------
+ALU RegWrite: 1
+ALU RD Address: 00
+ALU Result: 00000000000000020000000000000000
+---------------Output of EX/WB Pipeline Reg----------------
+WB RegWrite: 1
+WB RD Address: 00
+WB RD Data: 00000000000000020000000000000000
+Pipeline Output: 00000000000000020000000000000000
+---------------------------------------
+
+
+
+
+Cycle: 49
+---------------Output of Instr Buff----------------
+Fetched Instruction: 0000000
+---------------Output of IF/ID Pipeline Reg----------------
+Decoded Instruction: 0000000
+---------------Input of Reg File----------------
+RegFile Instruction: 0000000
+---------------Output of Reg File----------------
+RS1 Data: 00000000000000020000000000007FFF
+RS2 Data: 00000000000000020000000000007FFF
+RS3 Data: 00000000000000020000000000007FFF
+---------------Output of ID/EX Pipeline Reg----------------
+ID/EX Instruction: 0000000
+ID/EX RS1 Data: 00000000000000020000000000007FFF
+ID/EX RS2 Data: 00000000000000020000000000007FFF
+ID/EX RS3 Data: 00000000000000020000000000007FFF
+---------------Output of Forwarding Unit----------------
+Forwarded Instruction: 0000000
+Forwarded RS1 Data: 00000000000000020000000000007FFF
+Forwarded RS2 Data: 00000000000000020000000000007FFF
+Forwarded RS3 Data: 00000000000000020000000000007FFF
+Forwarded RD Data for load: 0000000000001100000000007000FFFF
+---------------Output of ALU----------------
+ALU RegWrite: 1
+ALU RD Address: 00
+ALU Result: 00000000000000020000000000000000
+---------------Output of EX/WB Pipeline Reg----------------
+WB RegWrite: 1
+WB RD Address: 00
+WB RD Data: 00000000000000020000000000000000
+Pipeline Output: 00000000000000020000000000000000
+---------------------------------------
+
+
+
+
+Cycle: 50
+---------------Output of Instr Buff----------------
+Fetched Instruction: 0000000
+---------------Output of IF/ID Pipeline Reg----------------
+Decoded Instruction: 0000000
+---------------Input of Reg File----------------
+RegFile Instruction: 0000000
+---------------Output of Reg File----------------
+RS1 Data: 00000000000000020000000000007FFF
+RS2 Data: 00000000000000020000000000007FFF
+RS3 Data: 00000000000000020000000000007FFF
+---------------Output of ID/EX Pipeline Reg----------------
+ID/EX Instruction: 0000000
+ID/EX RS1 Data: 00000000000000020000000000007FFF
+ID/EX RS2 Data: 00000000000000020000000000007FFF
+ID/EX RS3 Data: 00000000000000020000000000007FFF
+---------------Output of Forwarding Unit----------------
+Forwarded Instruction: 0000000
+Forwarded RS1 Data: 00000000000000020000000000007FFF
+Forwarded RS2 Data: 00000000000000020000000000007FFF
+Forwarded RS3 Data: 00000000000000020000000000007FFF
+Forwarded RD Data for load: 0000000000001100000000007000FFFF
+---------------Output of ALU----------------
+ALU RegWrite: 1
+ALU RD Address: 00
+ALU Result: 00000000000000020000000000000000
+---------------Output of EX/WB Pipeline Reg----------------
+WB RegWrite: 1
+WB RD Address: 00
+WB RD Data: 00000000000000020000000000000000
+Pipeline Output: 00000000000000020000000000000000
+---------------------------------------
+
+
+
+
+Cycle: 51
+---------------Output of Instr Buff----------------
+Fetched Instruction: 0000000
+---------------Output of IF/ID Pipeline Reg----------------
+Decoded Instruction: 0000000
+---------------Input of Reg File----------------
+RegFile Instruction: 0000000
+---------------Output of Reg File----------------
+RS1 Data: 00000000000000020000000000007FFF
+RS2 Data: 00000000000000020000000000007FFF
+RS3 Data: 00000000000000020000000000007FFF
+---------------Output of ID/EX Pipeline Reg----------------
+ID/EX Instruction: 0000000
+ID/EX RS1 Data: 00000000000000020000000000007FFF
+ID/EX RS2 Data: 00000000000000020000000000007FFF
+ID/EX RS3 Data: 00000000000000020000000000007FFF
+---------------Output of Forwarding Unit----------------
+Forwarded Instruction: 0000000
+Forwarded RS1 Data: 00000000000000020000000000007FFF
+Forwarded RS2 Data: 00000000000000020000000000007FFF
+Forwarded RS3 Data: 00000000000000020000000000007FFF
+Forwarded RD Data for load: 0000000000001100000000007000FFFF
+---------------Output of ALU----------------
+ALU RegWrite: 1
+ALU RD Address: 00
+ALU Result: 00000000000000020000000000000000
+---------------Output of EX/WB Pipeline Reg----------------
+WB RegWrite: 1
+WB RD Address: 00
+WB RD Data: 00000000000000020000000000000000
+Pipeline Output: 00000000000000020000000000000000
+---------------------------------------
+
+
+
+
+Cycle: 52
+---------------Output of Instr Buff----------------
+Fetched Instruction: 0000000
+---------------Output of IF/ID Pipeline Reg----------------
+Decoded Instruction: 0000000
+---------------Input of Reg File----------------
+RegFile Instruction: 0000000
+---------------Output of Reg File----------------
+RS1 Data: 00000000000000020000000000007FFF
+RS2 Data: 00000000000000020000000000007FFF
+RS3 Data: 00000000000000020000000000007FFF
+---------------Output of ID/EX Pipeline Reg----------------
+ID/EX Instruction: 0000000
+ID/EX RS1 Data: 00000000000000020000000000007FFF
+ID/EX RS2 Data: 00000000000000020000000000007FFF
+ID/EX RS3 Data: 00000000000000020000000000007FFF
+---------------Output of Forwarding Unit----------------
+Forwarded Instruction: 0000000
+Forwarded RS1 Data: 00000000000000020000000000007FFF
+Forwarded RS2 Data: 00000000000000020000000000007FFF
+Forwarded RS3 Data: 00000000000000020000000000007FFF
+Forwarded RD Data for load: 0000000000001100000000007000FFFF
+---------------Output of ALU----------------
+ALU RegWrite: 1
+ALU RD Address: 00
+ALU Result: 00000000000000020000000000000000
+---------------Output of EX/WB Pipeline Reg----------------
+WB RegWrite: 1
+WB RD Address: 00
+WB RD Data: 00000000000000020000000000000000
+Pipeline Output: 00000000000000020000000000000000
+---------------------------------------
+
+
+
+
+Cycle: 53
+---------------Output of Instr Buff----------------
+Fetched Instruction: 0000000
+---------------Output of IF/ID Pipeline Reg----------------
+Decoded Instruction: 0000000
+---------------Input of Reg File----------------
+RegFile Instruction: 0000000
+---------------Output of Reg File----------------
+RS1 Data: 00000000000000020000000000007FFF
+RS2 Data: 00000000000000020000000000007FFF
+RS3 Data: 00000000000000020000000000007FFF
+---------------Output of ID/EX Pipeline Reg----------------
+ID/EX Instruction: 0000000
+ID/EX RS1 Data: 00000000000000020000000000007FFF
+ID/EX RS2 Data: 00000000000000020000000000007FFF
+ID/EX RS3 Data: 00000000000000020000000000007FFF
+---------------Output of Forwarding Unit----------------
+Forwarded Instruction: 0000000
+Forwarded RS1 Data: 00000000000000020000000000007FFF
+Forwarded RS2 Data: 00000000000000020000000000007FFF
+Forwarded RS3 Data: 00000000000000020000000000007FFF
+Forwarded RD Data for load: 0000000000001100000000007000FFFF
+---------------Output of ALU----------------
+ALU RegWrite: 1
+ALU RD Address: 00
+ALU Result: 00000000000000020000000000000000
+---------------Output of EX/WB Pipeline Reg----------------
+WB RegWrite: 1
+WB RD Address: 00
+WB RD Data: 00000000000000020000000000000000
+Pipeline Output: 00000000000000020000000000000000
+---------------------------------------
+
+
+
+
+Cycle: 54
+---------------Output of Instr Buff----------------
+Fetched Instruction: 0000000
+---------------Output of IF/ID Pipeline Reg----------------
+Decoded Instruction: 0000000
+---------------Input of Reg File----------------
+RegFile Instruction: 0000000
+---------------Output of Reg File----------------
+RS1 Data: 00000000000000020000000000007FFF
+RS2 Data: 00000000000000020000000000007FFF
+RS3 Data: 00000000000000020000000000007FFF
+---------------Output of ID/EX Pipeline Reg----------------
+ID/EX Instruction: 0000000
+ID/EX RS1 Data: 00000000000000020000000000007FFF
+ID/EX RS2 Data: 00000000000000020000000000007FFF
+ID/EX RS3 Data: 00000000000000020000000000007FFF
+---------------Output of Forwarding Unit----------------
+Forwarded Instruction: 0000000
+Forwarded RS1 Data: 00000000000000020000000000007FFF
+Forwarded RS2 Data: 00000000000000020000000000007FFF
+Forwarded RS3 Data: 00000000000000020000000000007FFF
+Forwarded RD Data for load: 0000000000001100000000007000FFFF
+---------------Output of ALU----------------
+ALU RegWrite: 1
+ALU RD Address: 00
+ALU Result: 00000000000000020000000000000000
+---------------Output of EX/WB Pipeline Reg----------------
+WB RegWrite: 1
+WB RD Address: 00
+WB RD Data: 00000000000000020000000000000000
+Pipeline Output: 00000000000000020000000000000000
+---------------------------------------
+
+
+
+
+Cycle: 55
+---------------Output of Instr Buff----------------
+Fetched Instruction: 0000000
+---------------Output of IF/ID Pipeline Reg----------------
+Decoded Instruction: 0000000
+---------------Input of Reg File----------------
+RegFile Instruction: 0000000
+---------------Output of Reg File----------------
+RS1 Data: 00000000000000020000000000007FFF
+RS2 Data: 00000000000000020000000000007FFF
+RS3 Data: 00000000000000020000000000007FFF
+---------------Output of ID/EX Pipeline Reg----------------
+ID/EX Instruction: 0000000
+ID/EX RS1 Data: 00000000000000020000000000007FFF
+ID/EX RS2 Data: 00000000000000020000000000007FFF
+ID/EX RS3 Data: 00000000000000020000000000007FFF
+---------------Output of Forwarding Unit----------------
+Forwarded Instruction: 0000000
+Forwarded RS1 Data: 00000000000000020000000000007FFF
+Forwarded RS2 Data: 00000000000000020000000000007FFF
+Forwarded RS3 Data: 00000000000000020000000000007FFF
+Forwarded RD Data for load: 0000000000001100000000007000FFFF
+---------------Output of ALU----------------
+ALU RegWrite: 1
+ALU RD Address: 00
+ALU Result: 00000000000000020000000000000000
+---------------Output of EX/WB Pipeline Reg----------------
+WB RegWrite: 1
+WB RD Address: 00
+WB RD Data: 00000000000000020000000000000000
+Pipeline Output: 00000000000000020000000000000000
+---------------------------------------
+
+
+
+
+Cycle: 56
+---------------Output of Instr Buff----------------
+Fetched Instruction: 0000000
+---------------Output of IF/ID Pipeline Reg----------------
+Decoded Instruction: 0000000
+---------------Input of Reg File----------------
+RegFile Instruction: 0000000
+---------------Output of Reg File----------------
+RS1 Data: 00000000000000020000000000007FFF
+RS2 Data: 00000000000000020000000000007FFF
+RS3 Data: 00000000000000020000000000007FFF
+---------------Output of ID/EX Pipeline Reg----------------
+ID/EX Instruction: 0000000
+ID/EX RS1 Data: 00000000000000020000000000007FFF
+ID/EX RS2 Data: 00000000000000020000000000007FFF
+ID/EX RS3 Data: 00000000000000020000000000007FFF
+---------------Output of Forwarding Unit----------------
+Forwarded Instruction: 0000000
+Forwarded RS1 Data: 00000000000000020000000000007FFF
+Forwarded RS2 Data: 00000000000000020000000000007FFF
+Forwarded RS3 Data: 00000000000000020000000000007FFF
+Forwarded RD Data for load: 0000000000001100000000007000FFFF
+---------------Output of ALU----------------
+ALU RegWrite: 1
+ALU RD Address: 00
+ALU Result: 00000000000000020000000000000000
+---------------Output of EX/WB Pipeline Reg----------------
+WB RegWrite: 1
+WB RD Address: 00
+WB RD Data: 00000000000000020000000000000000
+Pipeline Output: 00000000000000020000000000000000
+---------------------------------------
+
+
+
+
+Cycle: 57
+---------------Output of Instr Buff----------------
+Fetched Instruction: 0000000
+---------------Output of IF/ID Pipeline Reg----------------
+Decoded Instruction: 0000000
+---------------Input of Reg File----------------
+RegFile Instruction: 0000000
+---------------Output of Reg File----------------
+RS1 Data: 00000000000000020000000000007FFF
+RS2 Data: 00000000000000020000000000007FFF
+RS3 Data: 00000000000000020000000000007FFF
+---------------Output of ID/EX Pipeline Reg----------------
+ID/EX Instruction: 0000000
+ID/EX RS1 Data: 00000000000000020000000000007FFF
+ID/EX RS2 Data: 00000000000000020000000000007FFF
+ID/EX RS3 Data: 00000000000000020000000000007FFF
+---------------Output of Forwarding Unit----------------
+Forwarded Instruction: 0000000
+Forwarded RS1 Data: 00000000000000020000000000007FFF
+Forwarded RS2 Data: 00000000000000020000000000007FFF
+Forwarded RS3 Data: 00000000000000020000000000007FFF
+Forwarded RD Data for load: 0000000000001100000000007000FFFF
+---------------Output of ALU----------------
+ALU RegWrite: 1
+ALU RD Address: 00
+ALU Result: 00000000000000020000000000000000
+---------------Output of EX/WB Pipeline Reg----------------
+WB RegWrite: 1
+WB RD Address: 00
+WB RD Data: 00000000000000020000000000000000
+Pipeline Output: 00000000000000020000000000000000
+---------------------------------------
+
+
+
+
+Cycle: 58
+---------------Output of Instr Buff----------------
+Fetched Instruction: 0000000
+---------------Output of IF/ID Pipeline Reg----------------
+Decoded Instruction: 0000000
+---------------Input of Reg File----------------
+RegFile Instruction: 0000000
+---------------Output of Reg File----------------
+RS1 Data: 00000000000000020000000000007FFF
+RS2 Data: 00000000000000020000000000007FFF
+RS3 Data: 00000000000000020000000000007FFF
+---------------Output of ID/EX Pipeline Reg----------------
+ID/EX Instruction: 0000000
+ID/EX RS1 Data: 00000000000000020000000000007FFF
+ID/EX RS2 Data: 00000000000000020000000000007FFF
+ID/EX RS3 Data: 00000000000000020000000000007FFF
+---------------Output of Forwarding Unit----------------
+Forwarded Instruction: 0000000
+Forwarded RS1 Data: 00000000000000020000000000007FFF
+Forwarded RS2 Data: 00000000000000020000000000007FFF
+Forwarded RS3 Data: 00000000000000020000000000007FFF
+Forwarded RD Data for load: 0000000000001100000000007000FFFF
+---------------Output of ALU----------------
+ALU RegWrite: 1
+ALU RD Address: 00
+ALU Result: 00000000000000020000000000000000
+---------------Output of EX/WB Pipeline Reg----------------
+WB RegWrite: 1
+WB RD Address: 00
+WB RD Data: 00000000000000020000000000000000
+Pipeline Output: 00000000000000020000000000000000
+---------------------------------------
+
+
+
+
+Cycle: 59
+---------------Output of Instr Buff----------------
+Fetched Instruction: 0000000
+---------------Output of IF/ID Pipeline Reg----------------
+Decoded Instruction: 0000000
+---------------Input of Reg File----------------
+RegFile Instruction: 0000000
+---------------Output of Reg File----------------
+RS1 Data: 00000000000000020000000000007FFF
+RS2 Data: 00000000000000020000000000007FFF
+RS3 Data: 00000000000000020000000000007FFF
+---------------Output of ID/EX Pipeline Reg----------------
+ID/EX Instruction: 0000000
+ID/EX RS1 Data: 00000000000000020000000000007FFF
+ID/EX RS2 Data: 00000000000000020000000000007FFF
+ID/EX RS3 Data: 00000000000000020000000000007FFF
+---------------Output of Forwarding Unit----------------
+Forwarded Instruction: 0000000
+Forwarded RS1 Data: 00000000000000020000000000007FFF
+Forwarded RS2 Data: 00000000000000020000000000007FFF
+Forwarded RS3 Data: 00000000000000020000000000007FFF
+Forwarded RD Data for load: 0000000000001100000000007000FFFF
+---------------Output of ALU----------------
+ALU RegWrite: 1
+ALU RD Address: 00
+ALU Result: 00000000000000020000000000000000
+---------------Output of EX/WB Pipeline Reg----------------
+WB RegWrite: 1
+WB RD Address: 00
+WB RD Data: 00000000000000020000000000000000
+Pipeline Output: 00000000000000020000000000000000
+---------------------------------------
+
+
+
+
+Cycle: 60
+---------------Output of Instr Buff----------------
+Fetched Instruction: 0000000
+---------------Output of IF/ID Pipeline Reg----------------
+Decoded Instruction: 0000000
+---------------Input of Reg File----------------
+RegFile Instruction: 0000000
+---------------Output of Reg File----------------
+RS1 Data: 00000000000000020000000000007FFF
+RS2 Data: 00000000000000020000000000007FFF
+RS3 Data: 00000000000000020000000000007FFF
+---------------Output of ID/EX Pipeline Reg----------------
+ID/EX Instruction: 0000000
+ID/EX RS1 Data: 00000000000000020000000000007FFF
+ID/EX RS2 Data: 00000000000000020000000000007FFF
+ID/EX RS3 Data: 00000000000000020000000000007FFF
+---------------Output of Forwarding Unit----------------
+Forwarded Instruction: 0000000
+Forwarded RS1 Data: 00000000000000020000000000007FFF
+Forwarded RS2 Data: 00000000000000020000000000007FFF
+Forwarded RS3 Data: 00000000000000020000000000007FFF
+Forwarded RD Data for load: 0000000000001100000000007000FFFF
+---------------Output of ALU----------------
+ALU RegWrite: 1
+ALU RD Address: 00
+ALU Result: 00000000000000020000000000000000
+---------------Output of EX/WB Pipeline Reg----------------
+WB RegWrite: 1
+WB RD Address: 00
+WB RD Data: 00000000000000020000000000000000
+Pipeline Output: 00000000000000020000000000000000
+---------------------------------------
+
+
+
+
+Cycle: 61
+---------------Output of Instr Buff----------------
+Fetched Instruction: 0000000
+---------------Output of IF/ID Pipeline Reg----------------
+Decoded Instruction: 0000000
+---------------Input of Reg File----------------
+RegFile Instruction: 0000000
+---------------Output of Reg File----------------
+RS1 Data: 00000000000000020000000000007FFF
+RS2 Data: 00000000000000020000000000007FFF
+RS3 Data: 00000000000000020000000000007FFF
+---------------Output of ID/EX Pipeline Reg----------------
+ID/EX Instruction: 0000000
+ID/EX RS1 Data: 00000000000000020000000000007FFF
+ID/EX RS2 Data: 00000000000000020000000000007FFF
+ID/EX RS3 Data: 00000000000000020000000000007FFF
+---------------Output of Forwarding Unit----------------
+Forwarded Instruction: 0000000
+Forwarded RS1 Data: 00000000000000020000000000007FFF
+Forwarded RS2 Data: 00000000000000020000000000007FFF
+Forwarded RS3 Data: 00000000000000020000000000007FFF
+Forwarded RD Data for load: 0000000000001100000000007000FFFF
+---------------Output of ALU----------------
+ALU RegWrite: 1
+ALU RD Address: 00
+ALU Result: 00000000000000020000000000000000
+---------------Output of EX/WB Pipeline Reg----------------
+WB RegWrite: 1
+WB RD Address: 00
+WB RD Data: 00000000000000020000000000000000
+Pipeline Output: 00000000000000020000000000000000
+---------------------------------------
+
+
+
+
+Cycle: 62
+---------------Output of Instr Buff----------------
+Fetched Instruction: 0000000
+---------------Output of IF/ID Pipeline Reg----------------
+Decoded Instruction: 0000000
+---------------Input of Reg File----------------
+RegFile Instruction: 0000000
+---------------Output of Reg File----------------
+RS1 Data: 00000000000000020000000000007FFF
+RS2 Data: 00000000000000020000000000007FFF
+RS3 Data: 00000000000000020000000000007FFF
+---------------Output of ID/EX Pipeline Reg----------------
+ID/EX Instruction: 0000000
+ID/EX RS1 Data: 00000000000000020000000000007FFF
+ID/EX RS2 Data: 00000000000000020000000000007FFF
+ID/EX RS3 Data: 00000000000000020000000000007FFF
+---------------Output of Forwarding Unit----------------
+Forwarded Instruction: 0000000
+Forwarded RS1 Data: 00000000000000020000000000007FFF
+Forwarded RS2 Data: 00000000000000020000000000007FFF
+Forwarded RS3 Data: 00000000000000020000000000007FFF
+Forwarded RD Data for load: 0000000000001100000000007000FFFF
+---------------Output of ALU----------------
+ALU RegWrite: 1
+ALU RD Address: 00
+ALU Result: 00000000000000020000000000000000
+---------------Output of EX/WB Pipeline Reg----------------
+WB RegWrite: 1
+WB RD Address: 00
+WB RD Data: 00000000000000020000000000000000
+Pipeline Output: 00000000000000020000000000000000
+---------------------------------------
+
+
+
+
+Cycle: 63
+---------------Output of Instr Buff----------------
+Fetched Instruction: 0000000
+---------------Output of IF/ID Pipeline Reg----------------
+Decoded Instruction: 0000000
+---------------Input of Reg File----------------
+RegFile Instruction: 0000000
+---------------Output of Reg File----------------
+RS1 Data: 00000000000000020000000000007FFF
+RS2 Data: 00000000000000020000000000007FFF
+RS3 Data: 00000000000000020000000000007FFF
+---------------Output of ID/EX Pipeline Reg----------------
+ID/EX Instruction: 0000000
+ID/EX RS1 Data: 00000000000000020000000000007FFF
+ID/EX RS2 Data: 00000000000000020000000000007FFF
+ID/EX RS3 Data: 00000000000000020000000000007FFF
+---------------Output of Forwarding Unit----------------
+Forwarded Instruction: 0000000
+Forwarded RS1 Data: 00000000000000020000000000007FFF
+Forwarded RS2 Data: 00000000000000020000000000007FFF
+Forwarded RS3 Data: 00000000000000020000000000007FFF
+Forwarded RD Data for load: 0000000000001100000000007000FFFF
+---------------Output of ALU----------------
+ALU RegWrite: 1
+ALU RD Address: 00
+ALU Result: 00000000000000020000000000000000
+---------------Output of EX/WB Pipeline Reg----------------
+WB RegWrite: 1
+WB RD Address: 00
+WB RD Data: 00000000000000020000000000000000
+Pipeline Output: 00000000000000020000000000000000
+---------------------------------------
+
+
+
+

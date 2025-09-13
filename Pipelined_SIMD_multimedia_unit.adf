@@ -1,0 +1,68 @@
+[Project]
+Current Flow=Multivendor
+VCS=0
+version=4
+Current Config=compile
+[Configurations]
+compile=Pipelined_SIMD_multimedia_unit
+[Library]
+Pipelined_SIMD_multimedia_unit=.\Pipelined_SIMD_multimedia_unit\Pipelined_SIMD_multimedia_unit.lib
+[$LibMap$]
+Pipelined_SIMD_multimedia_unit=.
+Active_lib=
+[Settings]
+FLOW_TYPE=HDL
+LANGUAGE=VHDL
+REFRESH_FLOW=1
+FLOWTOOLS=ONLY_IMPL
+ON_SERVERFARM_SYNTH=0
+ON_SERVERFARM_IMPL=0
+ON_SERVERFARM_SIM=0
+fileopenfolder=C:\Users\Dharmik\Downloads\345_proj-20250430T171046Z-1-001\345_proj\src
+[IMPLEMENTATION]
+UCF=
+[HierarchyViewer]
+HierarchyInformation=tb_pipelined_simd_multimedia_unit|behavior|0
+ShowHide=ShowTopLevel
+Selected=
+[Files.Data]
+.\src\multimedia_ALU_funcs.vhd=VHDL Source Code
+.\src\Register_File.vhd=VHDL Source Code
+.\src\PC_with_instr_buff.vhd=VHDL Source Code
+.\src\PC.vhd=VHDL Source Code
+.\src\Forwarding_unit.vhd=VHDL Source Code
+.\src\IF_ID_reg.vhd=VHDL Source Code
+.\src\ID_EX_reg.vhd=VHDL Source Code
+.\src\EX_WB_reg.vhd=VHDL Source Code
+.\src\Pipelined_SIMD_multimedia_unit.vhd=VHDL Source Code
+.\src\instr_array_package.vhd=VHDL Source Code
+.\src\smd_tb.vhd=VHDL Source Code
+.\src\multimedia_ALU_tb.vhd=VHDL Source Code
+[Files]
+/multimedia_ALU_funcs.vhd=-1
+/Register_File.vhd=-1
+/PC_with_instr_buff.vhd=-1
+/PC.vhd=-1
+/Forwarding_unit.vhd=-1
+/IF_ID_reg.vhd=-1
+/ID_EX_reg.vhd=-1
+/EX_WB_reg.vhd=-1
+/Pipelined_SIMD_multimedia_unit.vhd=-1
+/instr_array_package.vhd=-1
+/smd_tb.vhd=-1
+/multimedia_ALU_tb.vhd=-1
+[LocalVhdlSets]
+NetlistCompilation=1
+EnableVHDL93Key=0
+EnableVHDL2002Key=0
+EnableVHDL2008Key=1
+EnableVHDL2019Key=0
+DisableVHDL87Key=0
+Syntax RelaxLRM=0
+MaxErrorsKey=100
+CompileWithDebug=0
+OptimizationLevel=3
+DisableRangeChecks=0
+ProtectLevel=0
+IncrementalCompilation=0
+AdditionalOptions=

@@ -1,0 +1,12 @@
+i<>.\src\multimedia_ALU_funcs.vhd
+i<>.\src\Register_File.vhd
+i<>.\src\instr_buff.vhd
+i<>.\src\PC.vhd
+i<>.\src\Forwarding_unit.vhd
+i<>.\src\IF_ID_reg.vhd
+i<>.\src\ID_EX_reg.vhd
+i<>.\src\EX_WB_reg.vhd
+i<>.\src\Pipelined_SIMD_multimedia_unit.vhd
+i<>.\src\instr_array_package.vhd
+i<>.\src\smd_tb.vhd
+i<>.\src\multimedia_ALU_tb.vhd
